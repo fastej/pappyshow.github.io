@@ -5,10 +5,11 @@
 <meta charset="UTF-8">
 <!-- TemplateBeginEditable name="doctitle" -->
 <title>The Pappy Show</title>
-<!-- TemplateEndEditable -->
+
 <link href="../pappyCSS.css" rel="stylesheet" type="text/css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="../pappyJS.js" type="text/javascript"></script>
+<!-- TemplateEndEditable -->
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
 </head>
