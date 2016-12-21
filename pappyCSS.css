@@ -72,6 +72,8 @@
 	line-height:2.5em;
 	font-family:avenir;
 	display:none;
+	text-decoration:none;
+	color:rgba(0,0,0,1.00)
 }
 
 .headerOptionTeam {
@@ -84,6 +86,8 @@
 	line-height:2.5em;
 	font-family:avenir;
 	display:none;
+	text-decoration:none;
+	color:rgba(0,0,0,1.00)
 }
 
 .headerOptionWorkshops {
@@ -95,7 +99,8 @@
 	margin-top:-1.25em;
 	line-height:2.5em;
 	font-family:avenir;
-	display:none;
+	display:none;text-decoration:none;
+	color:rgba(0,0,0,1.00)
 }
 
 .headerOptionProjects {
@@ -108,6 +113,8 @@
 	line-height:2.5em;
 	font-family:avenir;
 	display:none;
+	text-decoration:none;
+	color:rgba(0,0,0,1.00)
 }
 
 .headerOptionGallery {
@@ -120,6 +127,8 @@
 	line-height:2.5em;
 	font-family:avenir;
 	display:none;
+	text-decoration:none;
+	color:rgba(0,0,0,1.00)
 }
 
 .headerOptionContact {
@@ -132,6 +141,8 @@
 	line-height:2.5em;
 	font-family:avenir;
 	display:none;
+	text-decoration:none;
+	color:rgba(0,0,0,1.00)
 }
 
 #about {
