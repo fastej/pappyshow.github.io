@@ -14,34 +14,75 @@ $(document).ready( function() {
 	});
 	
 	$(".headerOptionTeam").hover(function(){
-		$(".optionLineTeam").slideToggle(100);
+		if ($(".teamPage").length > 0) {
+			return true;
+		} else {
+			$(".optionLineTeam").slideToggle(100);
+		}	
 	}, function(){
-		$(".optionLineTeam").css("display","none");
+		if ($(".teamPage").length > 0) {
+			return true;
+		} else {
+			$(".optionLineTeam").css("display","none");
+		}
 	});
 	
 	$(".headerOptionWorkshops").hover(function(){
-		$(".optionLineWorkshops").slideToggle(100);
+		if ($(".workshopsPage").length > 0) {
+			return true;
+		} else {
+			$(".optionLineWorkshops").slideToggle(100);
+		}	
 	}, function(){
-		$(".optionLineWorkshops").css("display","none");
+		if ($(".workshopsPage").length > 0) {
+			return true;
+		} else {
+			$(".optionLineWorkshops").css("display","none");
+		}
 	});
 	
 	$(".headerOptionProjects").hover(function(){
-		$(".optionLineProjects").slideToggle(100);
+		if ($(".projectsPage").length > 0) {
+			return true;
+		} else {
+			$(".optionLineProjects").slideToggle(100);
+		}	
 	}, function(){
-		$(".optionLineProjects").css("display","none");
+		if ($(".projectsPage").length > 0) {
+			return true;
+		} else {
+			$(".optionLineProjects").css("display","none");
+		}
 	});
 	
 	$(".headerOptionGallery").hover(function(){
-		$(".optionLineGallery").slideToggle(100);
+		if ($(".galleryPage").length > 0) {
+			return true;
+		} else {
+			$(".optionLineGallery").slideToggle(100);
+		}	
 	}, function(){
-		$(".optionLineGallery").css("display","none");
+		if ($(".galleryPage").length > 0) {
+			return true;
+		} else {
+			$(".optionLineGallery").css("display","none");
+		}
 	});
 	
 	$(".headerOptionContact").hover(function(){
-		$(".optionLineContact").slideToggle(100);
+		if ($(".contactPage").length > 0) {
+			return true;
+		} else {
+			$(".optionLineContact").slideToggle(100);
+		}	
 	}, function(){
-		$(".optionLineContact").css("display","none");
+		if ($(".contactPage").length > 0) {
+			return true;
+		} else {
+			$(".optionLineContact").css("display","none");
+		}
 	});
+	
 	
 $(document).ready(function(){
 	if ($('#BGimage').length > 0) {
@@ -61,6 +102,21 @@ $(document).ready(function(){
 	
 	if ($(".aboutPage").length > 0) {
 		$('.optionLineAbout').css( "display", "block");
+	}
+	if ($(".teamPage").length > 0) {
+		$('.optionLineTeam').css( "display", "block");
+	}
+	if ($(".workshopsPage").length > 0) {
+		$('.optionLineWorkshops').css( "display", "block");
+	}
+	if ($(".projectsPage").length > 0) {
+		$('.optionLineProjects').css( "display", "block");
+	}
+	if ($(".galleryPage").length > 0) {
+		$('.optionLineGallery').css( "display", "block");
+	}
+	if ($(".contactPage").length > 0) {
+		$('.optionLineContact').css( "display", "block");
 	}
 	});
 	

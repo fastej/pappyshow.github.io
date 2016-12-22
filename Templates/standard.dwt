@@ -25,26 +25,36 @@
             	<div class= "optionLineAbout"></div>
         	</div>
         </a>
-        <div id="team" class="headerOptionTeam">
-        	<div class="fontSize">THE TEAM</div>
-            <div class= "optionLineTeam"></div>
-        </div>
-        <div id="workshops" class="headerOptionWorkshops">
-        	<div class="fontSize">WORKSHOPS</div>
-            <div class= "optionLineWorkshops"></div>
-        </div>
-        <div id="projects" class="headerOptionProjects">
-        	<div class="fontSize">PROJECTS</div>
-            <div class= "optionLineProjects"></div>
-        </div>
-        <div id="gallery" class="headerOptionGallery">
-        	<div class="fontSize">GALLERY</div>
-            <div class= "optionLineGallery"></div>
-        </div>	
-        <div id="contact" class="headerOptionContact">
-        	<div class="fontSize">CONTACT</div>
-            <div class= "optionLineContact"></div>
-        </div>		
+        <a href="../theteam.html">
+            <div id="team" class="headerOptionTeam">
+                <div class="fontSize">THE TEAM</div>
+                <div class= "optionLineTeam"></div>
+            </div>
+        </a>
+        <a href="../workshops.html">
+            <div id="workshops" class="headerOptionWorkshops">
+                <div class="fontSize">WORKSHOPS</div>
+                <div class= "optionLineWorkshops"></div>
+            </div>
+        </a>
+        <a href="../projects.html">
+            <div id="projects" class="headerOptionProjects">
+                <div class="fontSize">PROJECTS</div>
+                <div class= "optionLineProjects"></div>
+            </div>
+        </a>
+        <a href="../gallery.html">
+            <div id="gallery" class="headerOptionGallery">
+                <div class="fontSize">GALLERY</div>
+                <div class= "optionLineGallery"></div>
+            </div>
+        </a>	
+        <a href="../contact.html">
+            <div id="contact" class="headerOptionContact">
+                <div class="fontSize">CONTACT</div>
+                <div class= "optionLineContact"></div>
+            </div>	
+        </a>	
     </div>
 <div id="blackStrip"></div>
 <!-- <iframe src="https://www.youtube.com/embed/UllFyaFD32c?controls=0&autoplay=1"></iframe> -->
