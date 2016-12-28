@@ -155,7 +155,7 @@ $("#header").hover(function(){
 	 
 }); */
 
-$(window).bind('scroll', function(){
+/*$(window).bind('scroll', function(){
 			parallaxScroll();
 		});
 		function parallaxScroll(){
@@ -164,8 +164,11 @@ $(window).bind('scroll', function(){
 			$("#testdiv").css('top',30 - ((scrolledY*0.0005)) + 'em');
 			$("#testdivGrey").css('top',72 - ((scrolledY*0.01)) + 'em');
 			$("#para2").css('top',30 + ((scrolledY*0.02))+"em");
-			/*$("#BGimage").css('top', - ((scrolledY*0.01)) + 'em');*/
-		} 
+			$("#BGimage").css('top', - ((scrolledY*0.01)) + 'em');
+		} */
+		
+/*$("#para1").parallax({imageSrc: 'kane_082.JPG', positionY: '30px'});
+$("#para2").parallax({imageSrc: 'kane_155.JPG', positionY: '30em'});*/
 		
 $("#click").on("click", function(){
 	$('#startLogo').animate({'top':-30+ '%'},{queue: false, duration: 1500}).animate({"opacity":0},{queue: false, duration: 1000});
@@ -174,8 +177,8 @@ $("#click").on("click", function(){
 	$("#click").animate({"opacity": 0,"z-index":-101},300);
 	$("#header").delay(500).fadeIn(1000);
 	$("#blackStrip").delay(500).fadeIn(1000);
-	$("#para1").delay(500).fadeIn(1000);
-	$("#para2").delay(500).fadeIn(1000);
+	/*$("#para1").delay(500).fadeIn(1000);
+	$("#para2").delay(500).fadeIn(1000);*/
 	$(".blueLine").delay(500).fadeIn(1000);
 	$("#logo").delay(300).fadeIn(1000);
 	$(".headerOptionAbout").delay(450).fadeIn(1000);
