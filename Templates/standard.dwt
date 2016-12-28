@@ -14,8 +14,9 @@
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
 </head>
-
+<!-- TemplateBeginEditable name="EditRegion4" -->
 <body bgcolor="#FFFFFF">
+<!-- TemplateEndEditable -->
 	<div id="header">
     	<a href="../index.html">
     		<img id="logo" src="../PappyShowLogo.png" alt="Logo" />

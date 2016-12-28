@@ -382,3 +382,8 @@
 	background:transparent;
 	display:block;
 }
+
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
