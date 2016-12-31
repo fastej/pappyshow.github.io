@@ -18,7 +18,7 @@
 <body bgcolor="#FFFFFF">
 <!-- TemplateEndEditable -->
 	<div id="header">
-    	<a href="../index.html">
+    	<a href="../homepage.html">
     		<img id="logo" src="../PappyShowLogo.png" alt="Logo" />
         </a>
         <a href="../about.html">

@@ -169,18 +169,34 @@ $("#header").hover(function(){
 		
 /*$("#para1").parallax({imageSrc: 'kane_082.JPG', positionY: '30px'});
 $("#para2").parallax({imageSrc: 'kane_155.JPG', positionY: '30em'});*/
+
+$('#click').bind('fade-cycle', function() {
+    $(this).fadeOut(1000, function() {
+        $(this).fadeIn(1000, function() {
+            $(this).trigger('fade-cycle');
+        });
+    });
+});
+
+$('#click').each(function(index, elem) {
+    setTimeout(function() {
+        $(elem).trigger('fade-cycle');
+    }, index * 250);
+});
+
 		
 $("#click").on("click", function(){
 	$('body').removeClass('stop-scrolling');
-	$('#startLogo').animate({'top':-30+ '%'},{queue: false, duration: 1500}).animate({"opacity":0},{queue: false, duration: 1000});
-	$("#widthAdjust").animate({'top':-100+ 'em'},{queue: false, duration: 4000}).animate({"opacity":0},{queue: false, duration: 1000});
+	$('#startLogo').animate({"opacity":0},{queue: false, duration: 1500});
+	$("#widthAdjust").animate({"opacity":0},{queue: false, duration: 1000});
 	$("#BGimage").animate({"z-index":-100},{queue: false, duration: 1000});
 	$("#click").animate({"opacity": 0,"z-index":-101},300);
 	$("#header").delay(500).fadeIn(1000);
 	$("#blackStrip").delay(500).fadeIn(1000);
-	$("#para1").delay(500).fadeIn(1000);
+	/*$("#para1").delay(500).fadeIn(1000);
 	$("#para2").delay(500).fadeIn(1000);
-	$("#para2").delay(500).fadeIn(1000);
+	$("#para2").delay(500).fadeIn(1000);*/
+	$(".paraWhite").delay(800).fadeOut(1000);
 	$("#textdiv1").delay(500).fadeIn(1000);
 	$("#textdiv2").delay(500).fadeIn(1000);
 	$("#textdiv3").delay(500).fadeIn(1000);
