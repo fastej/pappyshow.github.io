@@ -187,7 +187,7 @@ $('#click').each(function(index, elem) {
 		
 $("#click").on("click", function(){
 	$('body').removeClass('stop-scrolling');
-	$('#startLogo').animate({"opacity":0},{queue: false, duration: 1500});
+	$('#startLogo').animate({"top":-100},{queue: false, duration: 1000}).animate({"opacity":0},{queue: false, duration: 1000});
 	$("#widthAdjust").animate({"opacity":0},{queue: false, duration: 1000});
 	$("#BGimage").animate({"z-index":-100},{queue: false, duration: 1000});
 	$("#click").animate({"opacity": 0,"z-index":-101},300);
