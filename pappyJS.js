@@ -82,7 +82,15 @@ $(document).ready( function() {
 			$(".optionLineContact").css("display","none");
 		}
 	});
-	
+
+$(document).ready(function(){
+	if ($(".homepagePage").length>0) {
+		$("#textdiv1").show();
+		$("#textdiv2").show();	
+		$("#textdiv3").show();
+		$(".blueLine").show();
+	}
+});
 	
 $(document).ready(function(){
 	if ($('#BGimage').length > 0) {
@@ -196,7 +204,7 @@ $("#click").on("click", function(){
 	/*$("#para1").delay(500).fadeIn(1000);
 	$("#para2").delay(500).fadeIn(1000);
 	$("#para2").delay(500).fadeIn(1000);*/
-	$(".paraWhite").delay(800).fadeOut(1000);
+	$(".paraWhite").delay(1000).fadeOut(1000);
 	$("#textdiv1").delay(500).fadeIn(1000);
 	$("#textdiv2").delay(500).fadeIn(1000);
 	$("#textdiv3").delay(500).fadeIn(1000);
@@ -209,6 +217,8 @@ $("#click").on("click", function(){
 	$(".headerOptionGallery").delay(1050).fadeIn(1000);
 	$(".headerOptionContact").delay(1050).fadeIn(1000);
 });
+
+
 
 /*$(document).ready(function(){if( $("#BGimage").css("opacity")>0){
 	$(this).scrollTop(0);
