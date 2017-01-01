@@ -89,9 +89,10 @@ $(document).ready(function(){
 		$("#textdiv2").show();	
 		$("#textdiv3").show();
 		$(".blueLine").show();
+		$(".paraWhite").fadeOut(1000);
 	}
 });
-	
+
 $(document).ready(function(){
 	if ($('#BGimage').length > 0) {
 	$("#startLogo").delay(200).fadeIn(1500);
