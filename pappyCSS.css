@@ -426,7 +426,7 @@
 
 #aboutBGinner {
 	padding-top:1em;
-	width:100%;
+	width:99%;
 	margin: 0.3em auto;
 	background-color:rgba(255,255,255,1.00);
 	font-family:avenir;
@@ -449,6 +449,7 @@ p {
 	border-top-style:solid;
 	border-top-color:rgba(6,232,230,1.00);
 	border-top-width:0.2em;
+	display:none;
 }
 
 #aboutPic2 {
@@ -460,6 +461,7 @@ p {
 	border-top-style:solid;
 	border-top-color:rgba(6,232,230,1.00);
 	border-top-width:0.2em;
+	display:none;
 }
 
 .aboutWhiteBlock {

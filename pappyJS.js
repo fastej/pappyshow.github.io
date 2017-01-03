@@ -91,6 +91,11 @@ $(document).ready(function(){
 		$(".blueLine").show();
 		$(".paraWhite").fadeOut(1000);
 	}
+	
+	if ($(".aboutPage").length>0) {
+		$("#aboutPic").fadeIn(1000);
+		$("#aboutPic2").fadeIn(1000);
+	}
 });
 
 $(document).ready(function(){
