@@ -148,6 +148,10 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
+    $(this).scrollTop(0);
+});
+
+$(document).ready(function(){
 	if ($('#BGimage').length > 0) {
 	$("#startLogo").delay(200).fadeIn(1500);
 	$("#click").delay(400).fadeToggle(500);
