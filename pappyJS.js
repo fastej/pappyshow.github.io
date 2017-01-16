@@ -263,7 +263,8 @@ $("#click").on("click", function(){
 	$("#textdiv1").delay(500).fadeIn(1000);
 	$("#textdiv2").delay(500).fadeIn(1000);
 	$("#textdiv3").delay(500).fadeIn(1000);
-	$(".blueLine").delay(500).fadeIn(1000);
+	$(".blueLine1").delay(500).fadeIn(1000);
+	$(".blueLine2").delay(500).fadeIn(1000);
 	$("#logo").delay(300).fadeIn(1000);
 	$(".headerOptionAbout").delay(450).fadeIn(1000);
 	$(".headerOptionTeam").delay(600).fadeIn(1000);
