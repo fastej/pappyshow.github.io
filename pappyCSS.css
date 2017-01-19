@@ -37,7 +37,7 @@
 	padding:0;
 	margin:0;
 	width:45%;
-	height: 22em;
+	height: 50%;
 	display:none;
 }
 
@@ -48,7 +48,7 @@
 	padding:0;
 	margin:0;
 	width:45%;
-	height: 22em;
+	height: 50%;
 	left:2%
 }
 
@@ -437,8 +437,8 @@
 #aboutBG {
 	width:45%;
 	margin: 9em 51% 1em;
-	overflow:hidden;
-	height:1%;
+	height:65em;
+	overflow:scroll;
 }
 
 #aboutBGinner {
@@ -449,18 +449,18 @@
 	font-family:ostrich regular;
 	text-align:justify;
 	line-height:1.8;
-	overflow:hidden;
-	height:1%;
+	height:100%;
+	overflow:scroll;
 }	
 
 #aboutBGinner p {
-	margin:1em 1em;
+	margin:0.5em 1em;
 	font-family:"ostrich regular";
-	font-size:2em
+	font-size:1.85em;
 }
 
 .innerTextDiv p {
-	font-size:4em;
+	font-size:calc(2.55vw + 2.55vh + 1.4vmin);
 	margin: 0.3em 10%;
 	font-family:"ostrich regular";
 }
