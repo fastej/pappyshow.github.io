@@ -1,5 +1,21 @@
 @charset "UTF-8";
 
+@font-face {
+	font-family:'Milkshake';
+	src: url(webfonts/Milkshake/Milkshake.ttf);
+}
+
+@font-face {
+	font-family:'AmaticSC Regular';
+	src:url(amatic/AmaticSC-Regular.ttf);
+}
+
+@font-face {
+	font-family:'ostrich regular';
+	src:url(ostrich-sans/ostrich-regular.ttf);
+}
+
+
 #header {
 	left:0;
 	top:0;
@@ -265,14 +281,6 @@
 	top:-10%;
 }
 
-
-/*body {
-	background-image:url(kane_015.JPG);
-	background-position:top;
-	background-repeat: no-repeat;
-	background-size:cover;
-} */
-
 #BGimage {
 	position:absolute;
 	top:0;
@@ -323,7 +331,6 @@
 	z-index:-20;
 	top:0;
 	left:0;
-	
 }
 
 #para2 {
@@ -444,17 +451,18 @@
 	line-height:1.8;
 	overflow:hidden;
 	height:1%;
-	font-size:1.3em;
 }	
 
 #aboutBGinner p {
-	margin:2em 3em;
+	margin:1em 1em;
+	font-family:"ostrich regular";
+	font-size:2em
 }
 
 .innerTextDiv p {
-	font-size:2.5em;
+	font-size:4em;
 	margin: 0.3em 10%;
-	font-family:avenir;
+	font-family:"ostrich regular";
 }
 
 #aboutPic {
