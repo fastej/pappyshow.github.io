@@ -131,19 +131,20 @@ $("#youtube").hover(function(){
 });
 
 $(document).ready(function(){
-	if ($(".homepagePage").length>0) {
-		$("#textdiv1").fadeIn(1500);
-		$("#textdiv2").show();	
+	if ($(".homepagePage").length>0) {	
 		$("#textdiv3").show();
-		$(".blueLine1").show();
+		$(".blueLine1").fadeIn(1000);
 		$(".blueLine2").show();
-		$(".paraWhite").fadeOut(1000);
+		$(".paraWhite1").addClass("load");
+		$(".paraWhite2").addClass("load");
+		$("#textdiv1").addClass("load1");
+		$("#textdiv2").addClass("load2");
 	}
 	
 	if ($(".aboutPage").length>0) {
 		$(".blueline3").fadeIn(1000);
-		$("#aboutPic").fadeIn(1000);
-		$("#aboutPic2").fadeIn(1000);
+		$("#aboutBG").addClass("load3");
+		$(".paraWhite1").addClass("load");
 	}
 });
 
@@ -264,15 +265,13 @@ $("#click").on("click", function(){
 	$("#click").animate({"opacity": 0,"z-index":-101},300);
 	$("#header").delay(500).fadeIn(1000);
 	$("#blackStrip").delay(500).fadeIn(1000);
-	/*$("#para1").delay(500).fadeIn(1000);
-	$("#para2").delay(500).fadeIn(1000);
-	$("#para2").delay(500).fadeIn(1000);*/
-	$(".paraWhite").delay(1000).fadeOut(1000);
-	$("#textdiv1").delay(500).fadeIn(1000);
-	$("#textdiv2").delay(500).fadeIn(1000);
-	$("#textdiv3").delay(500).fadeIn(1000);
-	$(".blueLine1").delay(500).fadeIn(1000);
-	$(".blueLine2").delay(500).fadeIn(1000);
+	$(".paraWhite1").addClass("load");
+	$(".paraWhite2").addClass("load");
+	$("#textdiv1").addClass("load1");
+	$("#textdiv2").addClass("load1");	
+	$("#textdiv3").show();
+	$(".blueLine1").fadeIn(1000);
+	$(".blueLine2").show();
 	$("#logo").delay(300).fadeIn(1000);
 	$(".headerOptionAbout").delay(450).fadeIn(1000);
 	$(".headerOptionTeam").delay(600).fadeIn(1000);
