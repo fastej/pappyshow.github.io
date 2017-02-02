@@ -207,40 +207,6 @@ $("#header").hover(function(){
 		$(this).animate({opacity:"1"-0.8*($(window).scrollTop()/(300+$(window).scrollTop()))},100);
 		$("#blackStrip").animate({opacity:"1"-0.8*($(window).scrollTop()/(300+$(window).scrollTop()))},100);
 	});
-	
-/*$(window).scroll(function(){
-	$("#header").css("height", 6-2*($(window).scrollTop()/(50+$(window).scrollTop()))+"em");
-	$("#blackStrip").css("margin-top", 6-2*($(window).scrollTop()/(50+$(window).scrollTop()))+"em");
-}); */
-	
-/*$(window).scroll( function(){
-	var height = $("#header").height();
-	if ($(document).scrollTop() > 3*height) {
-	$("#BGimage").animate({"opacity": 0,"z-index":-100},500);
-	$("#header").fadeIn(500);
-	$("#blackStrip").fadeIn(500);
-	$('html, body').animate({ scrollTop: 0 }, 0);
-	}
-	$("#widthAdjust").css("opacity", "1"-($(window).scrollTop()/(300+$(window).scrollTop())));
-	$("#startLogo").css("opacity", "1"-($(window).scrollTop()/(100+$(window).scrollTop()))); 
-	
-	 
-}); */
-
-/*$(window).bind('scroll', function(){
-			parallaxScroll();
-		});
-		function parallaxScroll(){
-			var scrolledY = $(window).scrollTop();
-			$("#para1").css('top',((scrolledY*0.05))+"em");
-			$("#testdiv").css('top',30 - ((scrolledY*0.0005)) + 'em');
-			$("#testdivGrey").css('top',72 - ((scrolledY*0.01)) + 'em');
-			$("#para2").css('top',30 + ((scrolledY*0.02))+"em");
-			$("#BGimage").css('top', - ((scrolledY*0.01)) + 'em');
-		} */
-		
-/*$("#para1").parallax({imageSrc: 'kane_082.JPG', positionY: '30px'});
-$("#para2").parallax({imageSrc: 'kane_155.JPG', positionY: '30em'});*/
 
 $('#click').bind('fade-cycle', function() {
     $(this).fadeOut(1000, function() {
@@ -259,16 +225,17 @@ $('#click').each(function(index, elem) {
 		
 $("#click").on("click", function(){
 	$('body').removeClass('stop-scrolling');
-	$('#startLogo').animate({'top':-30+ '%'},{queue: false, duration: 1500}).animate({"opacity":0},{queue: false, duration: 1000});
-	$("#widthAdjust").animate({"opacity":0},{queue: false, duration: 1000});
+	$('#startLogo').addClass("click");
+	$('#startLogo').fadeOut(600);
+	$("#widthAdjust").addClass("load");
 	$("#BGimage").animate({"z-index":-100},{queue: false, duration: 1000});
 	$("#click").animate({"opacity": 0,"z-index":-101},300);
 	$("#header").delay(500).fadeIn(1000);
 	$("#blackStrip").delay(500).fadeIn(1000);
-	$(".paraWhite1").addClass("load");
-	$(".paraWhite2").addClass("load");
-	$("#textdiv1").addClass("load1");
-	$("#textdiv2").addClass("load1");	
+	$(".paraWhite1").delay(500).addClass("load");
+	$(".paraWhite2").delay(500).addClass("load");
+	$("#textdiv1").delay(500).addClass("load1");
+	$("#textdiv2").delay(500).addClass("load2");	
 	$("#textdiv3").show();
 	$(".blueLine1").fadeIn(1000);
 	$(".blueLine2").show();

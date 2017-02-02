@@ -23,7 +23,8 @@
 	height:4em;
 	background-color:rgba(255,255,255,1.00);
 	position:fixed;
-	display:flex none;
+	display:flex;
+	display:none;
 	align-items:center;
 	z-index:100;
 }
@@ -311,6 +312,11 @@
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	background-size:cover;
+	-webkit-transition: opacity 2s ease-out;
+    -moz-transition: opacity 2s ease-out;
+    -ms-transition: opacity 2s ease-out;  
+    -o-transition: opacity 2s ease-out;
+    transition: opacity 2s ease-out;
 }
 
 #startLogo{
@@ -321,6 +327,11 @@
 	left:48%;
 	margin-left:-11em;
 	display:none;
+	-webkit-transition: top 1s ease-in;
+    -moz-transition: top 1s ease-in;
+    -ms-transition: top 1s ease-in;  
+    -o-transition: top 1s ease-in;
+    transition: top 1s ease-in;
 }
 	
 #click {
@@ -988,6 +999,11 @@
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	background-size:cover;
+	-webkit-transition: opacity 2s ease-out;
+    -moz-transition: opacity 2s ease-out;
+    -ms-transition: opacity 2s ease-out;  
+    -o-transition: opacity 2s ease-out;
+    transition: opacity 2s ease-out;
 }
 
 #startLogo{
@@ -998,6 +1014,11 @@
 	left:48%;
 	margin-left:-11em;
 	display:none;
+	-webkit-transition: top 1s ease-in;
+    -moz-transition: top 1s ease-in;
+    -ms-transition: top 1s ease-in;  
+    -o-transition: top 1s ease-in;
+    transition: top 1s ease-in;
 }
 	
 #click {
@@ -1370,7 +1391,7 @@
 
 #grid-container {
 	width:80%;
-	margin:5em auto;
+	margin:7em auto;
 }
 
 #kane {
@@ -1391,4 +1412,8 @@
 
 #aboutBG.load3 {
     opacity: 1;
+}
+
+#startLogo.click {
+	top: -20%;
 }
