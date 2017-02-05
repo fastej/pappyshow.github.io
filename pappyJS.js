@@ -132,7 +132,7 @@ $("#youtube").hover(function(){
 
 $(document).ready(function(){
 	if ($(".homepagePage").length>0) {	
-		$("#textdiv3").show();
+		$("#footer").show();
 		$(".blueLine1").fadeIn(1000);
 		$(".blueLine2").show();
 		$(".paraWhite1").addClass("load");
@@ -236,7 +236,7 @@ $("#click").on("click", function(){
 	$(".paraWhite2").delay(500).addClass("load");
 	$("#textdiv1").delay(500).addClass("load1");
 	$("#textdiv2").delay(500).addClass("load2");	
-	$("#textdiv3").show();
+	$("#footer").show();
 	$(".blueLine1").fadeIn(1000);
 	$(".blueLine2").show();
 	$("#logo").delay(300).fadeIn(1000);

@@ -65,7 +65,7 @@
 	transition-delay:0.75s;
 }
 
-#textdiv3 {
+#footer {
 	z-index:2;
 	position:absolute;
 	left:0;
@@ -678,7 +678,7 @@
 	left:65%
 }
 
-#textdiv3About {
+#footerAbout {
 	z-index:2;
 	position:absolute;
 	left:0;
@@ -752,7 +752,7 @@
 	transition-delay:0.75s;
 }
 
-#textdiv3 {
+#footer {
 	z-index:2;
 	position:absolute;
 	left:0;
@@ -1365,7 +1365,7 @@
 	left:65%
 }
 
-#textdiv3About {
+#footerAbout {
 	z-index:2;
 	position:absolute;
 	left:0;
@@ -1416,4 +1416,13 @@
 
 #startLogo.click {
 	top: -20%;
+}
+
+body {
+	height:100%;
+	min-height:100%;
+}
+
+#project1 {
+	width:60%;
 }
