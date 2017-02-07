@@ -67,7 +67,7 @@
 
 #footer {
 	z-index:2;
-	position:absolute;
+	position:relative;
 	left:0;
 	padding:0;
 	margin:0;
@@ -755,7 +755,7 @@
 
 #footer {
 	z-index:2;
-	position:absolute;
+	position:relative;
 	left:0;
 	padding:0;
 	margin:0;
@@ -1393,7 +1393,7 @@
 
 #grid-container {
 	width:80%;
-	margin:7em auto;
+	margin-top:7em;
 }
 
 #grid-container-projects {
@@ -1455,7 +1455,9 @@
 }
 
 html {
-  height: 100%;
+  height: 100%; 
+  margin:0;
+  padding:0;
 }
 
 body {
@@ -1463,6 +1465,8 @@ body {
   display:-webkit-flex;
   display: flex;
   flex-direction: column;
+  margin:0;
+  padding:0;
 }
 
 .content {
@@ -1471,4 +1475,5 @@ body {
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
   padding-bottom: 0em;
+  position:relative;
 }
