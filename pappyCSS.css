@@ -37,7 +37,6 @@
 	padding:0;
 	margin:0;
 	width:45%;
-	height: 50%;
 	opacity:0;
 	-webkit-transition: opacity 1s ease-out;
     -moz-transition: opacity 1s ease-out;
@@ -50,11 +49,10 @@
 #textdiv2 {
 	z-index:1;
 	position:absolute;
-	top:52em;
+	top:21em;
 	padding:0;
 	margin:0;
 	width:45%;
-	height: 50%;
 	left:2%;
 	opacity:0;
 	-webkit-transition: opacity 1s ease-out;
@@ -79,7 +77,6 @@
 }
 
 .innerTextDiv {
-	position:absolute;
 	width:100%;
 	height:100%;
 	background-color:rgba(6,232,230,0.7);
@@ -351,7 +348,7 @@
 #para1 {
 	width:100%;
 	height:35em;
-	position:absolute;
+	position:relative;
 	z-index:-20;
 	top:0;
 	left:0;
@@ -360,18 +357,18 @@
 #para2 {
 	width:100%;
 	height:35em;
-	position:absolute;
+	position:relative;
 	z-index:-19;
-	top:35em;
+	top:0em;
 	left:0;
 }
 
 #para3 {
 	width:100%;
 	height:45em;
-	position:absolute;
+	position:relative;
 	z-index:-19;
-	top:72em;
+	top:0em;
 	left:0;
 }
 
@@ -403,18 +400,19 @@
 
 #youtubeDiv {
 	width:100%;
-	height:28.1em;
-	position:absolute;
+	height:40vw;
+	position:relative;
 	top:0;
 	left:0;
-	margin-top:8em
+	margin-top:6em;
+	margin-bottom:2em;
+	text-align:center;
 }
 
 #film {
-	position:absolute;
-	width:inherit;
+	width:70%;
 	height:inherit;
-	z-index:4
+	z-index:4;
 }
 
 #white1 {
@@ -484,7 +482,7 @@
 
 #aboutBG {
 	width:45%;
-	margin: 9em 51% 1em;
+	margin: 5em 51% 1em;
 	opacity:0;
 	-webkit-transition: opacity 1s ease-out;
     -moz-transition: opacity 1s ease-out;
@@ -492,6 +490,7 @@
     -o-transition: opacity 1s ease-out;
     transition: opacity 1s ease-out;
 	transition-delay:0.75s;
+	position:absolute;
 }
 
 #aboutBGinner {
@@ -523,15 +522,15 @@
 	top:4em;
 	left:0;
 	height:40em;
-	position:absolute;
+	position:relative;
 	z-index:-30;
 }
 
 #aboutPic2 {
-	top:44em;
+	top:0em;
 	left:0;
 	width:100%;
-	position:absolute;
+	position:relative;
 	z-index:-30;
 	height:40em;
 }
@@ -725,7 +724,6 @@
 	padding:0;
 	margin:0;
 	width:31.5%;
-	height: 50%;
 	opacity:0;
 	-webkit-transition: opacity 1s ease-out;
     -moz-transition: opacity 1s ease-out;
@@ -738,11 +736,10 @@
 #textdiv2 {
 	z-index:1;
 	position:absolute;
-	top:52em;
+	top:21em;
 	padding:0;
 	margin:0;
 	width:31.5%;
-	height: 50%;
 	left:16.4%;
 	opacity:0;
 	-webkit-transition: opacity 1s ease-out;
@@ -767,7 +764,6 @@
 }
 
 .innerTextDiv {
-	position:absolute;
 	width:100%;
 	height:100%;
 	background-color:rgba(6,232,230,0.7);
@@ -1039,7 +1035,7 @@
 #para1 {
 	width:70%;
 	height:35em;
-	position:absolute;
+	position:relative;
 	z-index:-20;
 	top:0;
 	left:15%;
@@ -1048,18 +1044,18 @@
 #para2 {
 	width:70%;
 	height:35em;
-	position:absolute;
+	position:relative;
 	z-index:-19;
-	top:35em;
+	top:0em;
 	left:15%;
 }
 
 #para3 {
 	width:70%;
 	height:45em;
-	position:absolute;
+	position:relative;
 	z-index:-19;
-	top:72em;
+	top:0em;
 	left:15%;
 }
 
@@ -1091,18 +1087,19 @@
 
 #youtubeDiv {
 	width:100%;
-	height:28.1em;
-	position:absolute;
+	height:45em;
+	position:relative;
 	top:0;
 	left:0;
-	margin-top:8em
+	margin-top:6em;
+	margin-bottom:2em;
+	text-align:center;
 }
 
 #film {
-	position:absolute;
-	width:inherit;
+	width:66%;
 	height:inherit;
-	z-index:4
+	z-index:4;
 }
 
 #white1 {
@@ -1172,7 +1169,7 @@
 
 #aboutBG {
 	width:31.5%;
-	margin: 9em 50.7% 1em;
+	margin: 5em 50.7% 1em;
 	opacity:0;
 	-webkit-transition: opacity 1s ease-out;
     -moz-transition: opacity 1s ease-out;
@@ -1180,6 +1177,7 @@
     -o-transition: opacity 1s ease-out;
     transition: opacity 1s ease-out;
 	transition-delay:0.75s;
+	position:absolute;
 }
 
 #aboutBGinner {
@@ -1211,15 +1209,15 @@
 	top:4em;
 	left:15%;
 	height:40em;
-	position:absolute;
+	position:relative;
 	z-index:-30;
 }
 
 #aboutPic2 {
-	top:44em;
+	top:0em;
 	left:15%;
 	width:70%;
-	position:absolute;
+	position:relative;
 	z-index:-30;
 	height:40em;
 }
@@ -1367,18 +1365,6 @@
 	left:65%
 }
 
-#footerAbout {
-	z-index:2;
-	position:absolute;
-	left:0;
-	top:80em;
-	padding:0;
-	margin:0;
-	width:100%;
-	height: 5em;
-	background-color:rgba(6,232,230,0.4);
-}
-
 .blueline3 {
 	width:100%;
 	height:0.1em;
@@ -1392,8 +1378,8 @@
 }
 
 #grid-container {
-	width:80%;
-	margin-top:7em;
+	width:90%;
+	margin:7em auto;
 }
 
 #grid-container-projects {
@@ -1476,4 +1462,8 @@ body {
   flex: 1 0 auto;
   padding-bottom: 0em;
   position:relative;
+}
+
+.cbp-l-grid-mosaic-flat .cbp-item {
+  width: 700px;
 }
