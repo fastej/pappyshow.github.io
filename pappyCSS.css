@@ -484,7 +484,7 @@
 	height:100%;
 	background-color:rgba(255,255,255,1.00);
 	display:block;
-	z-index: 20;
+	z-index: 1;
 	position:absolute;
 	top:3em;
 	left:0;
@@ -739,6 +739,7 @@
 	width:100%;
 	position:relative;
 	margin-bottom:-5.3em;
+	z-index:0
 }
 
 @media screen and (min-width: 1300px) {
@@ -788,6 +789,40 @@
     -o-transition: opacity 1s ease-out;
     transition: opacity 1s ease-out;
 	transition-delay:0.75s;
+}
+
+#textdiv3 {
+	z-index:0;
+	position:absolute;
+	left:5%;
+	top:8em;
+	padding:0;
+	margin:0;
+	width:40%;
+	opacity:0;
+	-webkit-transition: opacity 1s ease-out;
+    -moz-transition: opacity 1s ease-out;
+    -ms-transition: opacity 1s ease-out;  
+    -o-transition: opacity 1s ease-out;
+    transition: opacity 1s ease-out;
+	transition-delay:0.75s;
+}
+
+#textdiv4 {
+	z-index:0;
+	position:absolute;
+	left:55%;
+	top:18em;
+	padding:0;
+	margin:0;
+	width:40%;
+	opacity:0;
+	-webkit-transition: opacity 1s ease-out;
+    -moz-transition: opacity 1s ease-out;
+    -ms-transition: opacity 1s ease-out;  
+    -o-transition: opacity 1s ease-out;
+    transition: opacity 1s ease-out;
+	transition-delay:1.25s;
 }
 
 #footer {
