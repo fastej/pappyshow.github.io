@@ -141,6 +141,15 @@ $(document).ready(function(){
 		$("#textdiv2").addClass("load2");
 	}
 	
+	if ($(".contactPage").length>0) {	
+		$("#footer").show();
+		$(".blueLine1").fadeIn(1000);
+		$(".blueLine2").show();
+		$(".paraWhite1").addClass("load");
+		$("#textdiv3").addClass("load1");
+		$("#textdiv4").addClass("load2");
+	}
+	
 	if ($(".aboutPage").length>0) {
 		$(".blueline3").fadeIn(1000);
 		$("#aboutBG").addClass("load3");

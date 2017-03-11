@@ -63,6 +63,40 @@
 	transition-delay:0.75s;
 }
 
+#textdiv3 {
+	z-index:0;
+	position:absolute;
+	left:5%;
+	top:8em;
+	padding:0;
+	margin:0;
+	width:40%;
+	opacity:0;
+	-webkit-transition: opacity 1s ease-out;
+    -moz-transition: opacity 1s ease-out;
+    -ms-transition: opacity 1s ease-out;  
+    -o-transition: opacity 1s ease-out;
+    transition: opacity 1s ease-out;
+	transition-delay:0.75s;
+}
+
+#textdiv4 {
+	z-index:0;
+	position:absolute;
+	left:55%;
+	top:18em;
+	padding:0;
+	margin:0;
+	width:40%;
+	opacity:0;
+	-webkit-transition: opacity 1s ease-out;
+    -moz-transition: opacity 1s ease-out;
+    -ms-transition: opacity 1s ease-out;  
+    -o-transition: opacity 1s ease-out;
+    transition: opacity 1s ease-out;
+	transition-delay:1.25s;
+}
+
 #footer {
 	z-index:2;
 	position:relative;
@@ -192,25 +226,25 @@
 }
 
 #about {
-	left:40%;
-	z-index:13;
-	position:absolute;
-}
-
-#team {
 	left:50%;
 	z-index:13;
 	position:absolute;
 }
 
+#team {
+	left:80%;
+	z-index:13;
+	position:absolute;
+}
+
 #workshops {
-	left:60%;
+	left:70%;
 	z-index:13;
 	position:absolute;
 }
 
 #projects {
-	left:70%;
+	left:60%;
 	z-index:13;
 	position:absolute;
 }
@@ -450,7 +484,7 @@
 	height:100%;
 	background-color:rgba(255,255,255,1.00);
 	display:block;
-	z-index: -20;
+	z-index: 20;
 	position:absolute;
 	top:3em;
 	left:0;
@@ -506,8 +540,8 @@
 
 #aboutBGinner p {
 	margin:0.5em 1em;
-	font-family:"ostrich regular";
-	font-size:calc(1.3vw + 1.3vh + 0.5vmin);
+	font-family: 'Nixie One', cursive;
+	font-size:calc(1vw + 1vh + 0.3vmin);
 
 }
 
@@ -885,25 +919,25 @@
 }
 
 #about {
-	left:40%;
-	z-index:13;
-	position:absolute;
-}
-
-#team {
 	left:50%;
 	z-index:13;
 	position:absolute;
 }
 
+#team {
+	left:80%;
+	z-index:13;
+	position:absolute;
+}
+
 #workshops {
-	left:60%;
+	left:70%;
 	z-index:13;
 	position:absolute;
 }
 
 #projects {
-	left:70%;
+	left:60%;
 	z-index:13;
 	position:absolute;
 }
@@ -1349,6 +1383,7 @@
 	bottom:23%;
 	left:-9%;
 	font-family:ostrich regular;
+
 }
 
 #seperator1 {
@@ -1416,6 +1451,14 @@
     opacity: 1;
 }
 
+#textdiv3.load1 {
+    opacity: 1;
+}
+
+#textdiv4.load2 {
+    opacity: 1;
+}
+
 #aboutBG.load3 {
     opacity: 1;
 }
@@ -1478,4 +1521,14 @@ body {
 
 .cbp-l-grid-mosaic-flat .cbp-item {
   width: 700px;
+}
+
+footer a {
+	text-decoration:none;
+	color:rgba(0,0,0,1.00)
+}
+
+footer a:hover{
+	text-decoration:underline;
+	color:rgba(0,0,0,1.00)
 }
