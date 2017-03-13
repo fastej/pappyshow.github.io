@@ -33,7 +33,7 @@
 	z-index:0;
 	position:absolute;
 	left:53%;
-	top:19em;
+	top:16em;
 	padding:0;
 	margin:0;
 	width:45%;
@@ -49,7 +49,7 @@
 #textdiv2 {
 	z-index:1;
 	position:absolute;
-	top:21em;
+	top:14em;
 	padding:0;
 	margin:0;
 	width:45%;
@@ -378,6 +378,15 @@
 	display:none;
 	color:rgba(6,232,230,1.00);
 }
+
+#paravid {
+	width:100%;
+	height:40em;
+	position:relative;
+	z-index:2;
+	top:0;
+	left:0;
+}
 	
 #para1 {
 	width:100%;
@@ -393,7 +402,7 @@
 	height:35em;
 	position:relative;
 	z-index:-19;
-	top:0em;
+	top:0;
 	left:0;
 }
 
@@ -427,6 +436,17 @@
 	left:0;
 	z-index:-1;
 }
+
+.blueLine4 {
+	width:100%;
+	height:0.1em;
+	position:absolute;
+	background-color:rgba(6,232,230,1.00);
+	display:none;
+	top:45em;
+	left:0;
+	z-index:-1;
+}
 	
 .bottom {
 	bottom:0;
@@ -435,11 +455,10 @@
 #youtubeDiv {
 	width:100%;
 	height:40vw;
-	position:relative;
-	top:0;
+	position:absolute;
+	top:10%;
 	left:0;
-	margin-top:6em;
-	margin-bottom:2em;
+	margin-top:4em;
 	text-align:center;
 }
 
@@ -738,8 +757,13 @@
 #contactBGimage {
 	width:100%;
 	position:relative;
-	margin-bottom:-5.3em;
-	z-index:0
+	top:0;
+	left:0;
+	margin-bottom:-5em;
+	z-index:0;
+	background-image:url(Gallery%20Pictures/PS-0655.jpg);
+	background-size:cover;
+	height:800px;
 }
 
 @media screen and (min-width: 1300px) {
@@ -761,7 +785,7 @@
 	z-index:0;
 	position:absolute;
 	left:52.1%;
-	top:19em;
+	top:16em;
 	padding:0;
 	margin:0;
 	width:31.5%;
@@ -772,12 +796,13 @@
     -o-transition: opacity 1s ease-out;
     transition: opacity 1s ease-out;
 	transition-delay:0.75s;
+	
 }
 
 #textdiv2 {
 	z-index:1;
 	position:absolute;
-	top:21em;
+	top:14em;
 	padding:0;
 	margin:0;
 	width:31.5%;
@@ -1152,6 +1177,17 @@
 	background-color:rgba(6,232,230,1.00);
 	display:none;
 	top:36.2em;
+	left:0;
+	z-index:-1;
+}
+
+.blueLine4 {
+	width:100%;
+	height:0.1em;
+	position:absolute;
+	background-color:rgba(6,232,230,1.00);
+	display:none;
+	top:40em;
 	left:0;
 	z-index:-1;
 }

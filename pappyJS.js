@@ -135,6 +135,7 @@ $(document).ready(function(){
 		$("#footer").show();
 		$(".blueLine1").fadeIn(1000);
 		$(".blueLine2").show();
+		$(".blueLine4").show();
 		$(".paraWhite1").addClass("load");
 		$(".paraWhite2").addClass("load");
 		$("#textdiv1").addClass("load1");
