@@ -249,6 +249,7 @@ $("#click").on("click", function(){
 	$("#footer").show();
 	$(".blueLine1").fadeIn(1000);
 	$(".blueLine2").show();
+	$(".blueLine4").show();
 	$("#logo").delay(300).fadeIn(1000);
 	$(".headerOptionAbout").delay(450).fadeIn(1000);
 	$(".headerOptionTeam").delay(600).fadeIn(1000);
