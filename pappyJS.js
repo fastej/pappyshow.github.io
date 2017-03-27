@@ -142,6 +142,18 @@ $(document).ready(function(){
 		$("#textdiv2").addClass("load2");
 	}
 	
+	if ($(".workshopsPage").length>0) {	
+		$("#footer").show();
+		$(".blueLine1").fadeIn(1000);
+		$(".blueLine2").show();
+		$(".blueLine5").show();
+		$(".paraWhite1").addClass("load");
+		$(".paraWhite2").addClass("load");
+		$("#textdiv5").addClass("load1");
+		$("#textdiv6").addClass("load2");
+		$("#textdiv7").addClass("load2");
+	}
+	
 	if ($(".contactPage").length>0) {	
 		$("#footer").show();
 		$(".blueLine1").fadeIn(1000);
@@ -240,7 +252,6 @@ $("#click").on("click", function(){
 	$("#widthAdjust").addClass("load");
 	$("#BGimage").animate({"z-index":-100},{queue: false, duration: 1000});
 	$("#click").animate({"opacity": 0,"z-index":-101},300);
-	$("#header").delay(500).fadeIn(1000);
 	$("#blackStrip").delay(500).fadeIn(1000);
 	$(".paraWhite1").delay(500).addClass("load");
 	$(".paraWhite2").delay(500).addClass("load");
