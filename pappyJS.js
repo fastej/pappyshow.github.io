@@ -1,5 +1,14 @@
 $(document).ready( function() {
-	"use strict"; $(".headerOptionAbout").hover(function(){
+	
+	"use strict";
+	
+	if (matchMedia) {
+  var mq = window.matchMedia("(min-width: 767px)");
+  mq.addListener(WidthChange);
+  WidthChange(mq);
+}
+	
+	$(".headerOptionAbout").hover(function(){
 		if ($(".aboutPage").length > 0) {
 			return true;
 		} else {
@@ -83,21 +92,6 @@ $(document).ready( function() {
 		}
 	});
 	
-/*$(window).scroll( function(){
-        $('.showme').each( function(){
-            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
-            var bottom_of_window = $(window).scrollTop() + $(window).height();
-            if( bottom_of_window > bottom_of_object ){
-				$(this).removeClass('showme');
-                $(this).addClass('hideme');
-            }
-            if( bottom_of_window < bottom_of_object ){
-                $(this).removeClass('hideme');
-				$(this).addClass('showme');
-            }
-        });
-    });*/
-	
 $("#facebook").hover(function(){
 	$(this).animate({opacity:"0"},250);
 	$("#facebookB").animate({opacity:"1"},250);
@@ -159,6 +153,7 @@ $(document).ready(function(){
 		$(".blueLine1").fadeIn(1000);
 		$(".blueLine2").show();
 		$(".paraWhite1").addClass("load");
+		$(".paraWhite1").delay(1000).animate({"z-index":-100});
 		$("#textdiv3").addClass("load1");
 		$("#textdiv4").addClass("load2");
 	}
@@ -178,8 +173,9 @@ $(window).on('unload', function() {
     $(window).scrollTop(0);
 });
 
-$(document).ready(function(){
-	if ($('#BGimage').length > 0) {
+function WidthChange(mq) {
+	if (mq.matches) {
+if ($('#BGimage').length > 0) {
 	$("#startLogo").delay(200).fadeIn(1500);
 	$("#click").delay(400).fadeToggle(500);
 	} else {
@@ -193,6 +189,23 @@ $(document).ready(function(){
 	$(".headerOptionGallery").show();
 	$(".headerOptionContact").show();
 	}
+} else {
+  if ($('#BGimage').length > 0) {
+	$("#startLogo").delay(200).fadeIn(1500);
+	$("#click").delay(400).fadeToggle(500);
+	} else {
+	$("#header").show();
+	$("#blackStrip").show();
+	$("#logo").delay(300).show();
+	$(".headerOptionAbout").hide();
+	$(".headerOptionTeam").hide();
+	$(".headerOptionWorkshops").hide();
+	$(".headerOptionProjects").hide();
+	$(".headerOptionGallery").hide();
+	$(".headerOptionContact").hide();
+	}
+}
+	
 	
 	if ($(".aboutPage").length > 0) {
 		$('.optionLineAbout').css( "display", "block");
@@ -212,7 +225,7 @@ $(document).ready(function(){
 	if ($(".contactPage").length > 0) {
 		$('.optionLineContact').css( "display", "block");
 	}
-	});
+	}
 	
 
 

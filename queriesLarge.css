@@ -1,21 +1,8 @@
 @charset "UTF-8";
+/* CSS Document */
 
-@font-face {
-	font-family:'Milkshake';
-	src: url(webfonts/Milkshake/Milkshake.ttf);
-}
-
-@font-face {
-	font-family:'AmaticSC Regular';
-	src:url(amatic/AmaticSC-Regular.ttf);
-}
-
-@font-face {
-	font-family:'ostrich regular';
-	src:url(ostrich-sans/ostrich-regular.ttf);
-}
-
-
+@media screen and (min-width: 1300px) {
+	
 #header {
 	left:0;
 	top:0;
@@ -31,11 +18,11 @@
 #textdiv1 {
 	z-index:0;
 	position:absolute;
-	left:53%;
+	left:52.1%;
 	top:16em;
 	padding:0;
 	margin:0;
-	width:45%;
+	width:31.5%;
 	opacity:0;
 	-webkit-transition: opacity 1s ease-out;
     -moz-transition: opacity 1s ease-out;
@@ -43,6 +30,7 @@
     -o-transition: opacity 1s ease-out;
     transition: opacity 1s ease-out;
 	transition-delay:0.75s;
+	
 }
 
 #textdiv2 {
@@ -51,8 +39,8 @@
 	top:14em;
 	padding:0;
 	margin:0;
-	width:45%;
-	left:2%;
+	width:31.5%;
+	left:16.4%;
 	opacity:0;
 	-webkit-transition: opacity 1s ease-out;
     -moz-transition: opacity 1s ease-out;
@@ -99,11 +87,11 @@
 #textdiv5 {
 	z-index:0;
 	position:absolute;
-	left:17.5%;
-	top:10em;
+	left:53%;
+	top:16em;
 	padding:0;
 	margin:0;
-	width:65%;
+	width:45%;
 	opacity:0;
 	-webkit-transition: opacity 1s ease-out;
     -moz-transition: opacity 1s ease-out;
@@ -428,41 +416,32 @@
 	display:none;
 	color:rgba(6,232,230,1.00);
 }
-
-#paravid {
-	width:100%;
-	height:40em;
-	position:relative;
-	z-index:2;
-	top:0;
-	left:0;
-}
-	
+		
 #para1 {
-	width:100%;
+	width:70%;
 	height:35em;
 	position:relative;
 	z-index:-20;
 	top:0;
-	left:0;
+	left:15%;
 }
 
 #para2 {
-	width:100%;
+	width:70%;
 	height:35em;
 	position:relative;
 	z-index:-19;
-	top:0;
-	left:0;
+	top:0em;
+	left:15%;
 }
 
 #para3 {
-	width:100%;
+	width:70%;
 	height:45em;
 	position:relative;
 	z-index:-19;
 	top:0em;
-	left:0;
+	left:15%;
 }
 
 #para4 {
@@ -485,7 +464,7 @@
 
 #para6 {
 	width:100%;
-	height:35em;
+	height:40em;
 	position:relative;
 	z-index:2;
 	top:0;
@@ -500,7 +479,6 @@
 	top:0em;
 	left:0;
 }
-
 
 .blueLine1 {
 	width:100%;
@@ -530,18 +508,7 @@
 	position:absolute;
 	background-color:rgba(6,232,230,1.00);
 	display:none;
-	top:45em;
-	left:0;
-	z-index:-1;
-}
-
-.blueLine5 {
-	width:100%;
-	height:0.1em;
-	position:absolute;
-	background-color:rgba(6,232,230,1.00);
-	display:none;
-	top:36.2em;
+	top:40em;
 	left:0;
 	z-index:-1;
 }
@@ -552,16 +519,17 @@
 
 #youtubeDiv {
 	width:100%;
-	height:40vw;
-	position:absolute;
-	top:10%;
+	height:45em;
+	position:relative;
+	top:0;
 	left:0;
-	margin-top:4em;
+	margin-top:6em;
+	margin-bottom:2em;
 	text-align:center;
 }
 
 #film {
-	width:70%;
+	width:66%;
 	height:inherit;
 	z-index:4;
 }
@@ -601,7 +569,7 @@
 	height:100%;
 	background-color:rgba(255,255,255,1.00);
 	display:block;
-	z-index: 1;
+	z-index: -20;
 	position:absolute;
 	top:3em;
 	left:0;
@@ -614,7 +582,6 @@
 }
 
 .paraWhite2 {
-	opacity:1;
 	width:100%;
 	height:100%;
 	background-color:rgba(255,255,255,1.00);
@@ -623,6 +590,7 @@
 	position:absolute;
 	top:3em;
 	left:0;
+	opacity:1;
 	-webkit-transition: opacity 1s ease-out;
     -moz-transition: opacity 1s ease-out;
     -ms-transition: opacity 1s ease-out;  
@@ -632,8 +600,8 @@
 }
 
 #aboutBG {
-	width:45%;
-	margin: 5em 51% 1em;
+	width:31.5%;
+	margin: 5em 50.7% 1em;
 	opacity:0;
 	-webkit-transition: opacity 1s ease-out;
     -moz-transition: opacity 1s ease-out;
@@ -657,13 +625,13 @@
 
 #aboutBGinner p {
 	margin:0.5em 1em;
-	font-family: 'Nixie One', cursive;
-	font-size:calc(1vw + 1vh + 0.3vmin);
+	font-family:"ostrich regular";
+	font-size:calc(0.93vw + 0.93vh + 0.3vmin);
 
 }
 
 .innerTextDiv p {
-	font-size:calc(2.55vw + 2.55vh + 1.4vmin);
+	font-size:calc(2.1vw + 2.1vh + 1.2vmin);
 	margin: 0.3em 10%;
 	font-family:"ostrich regular";
 }
@@ -681,9 +649,9 @@
 }
 
 #aboutPic {
-	width:100%;
+	width:70%;
 	top:4em;
-	left:0;
+	left:15%;
 	height:40em;
 	position:relative;
 	z-index:-30;
@@ -691,8 +659,8 @@
 
 #aboutPic2 {
 	top:0em;
-	left:0;
-	width:100%;
+	left:15%;
+	width:70%;
 	position:relative;
 	z-index:-30;
 	height:40em;
@@ -819,6 +787,7 @@
 	bottom:23%;
 	left:-9%;
 	font-family:ostrich regular;
+
 }
 
 #seperator1 {
@@ -841,18 +810,6 @@
 	left:65%
 }
 
-#footerAbout {
-	z-index:2;
-	position:absolute;
-	left:0;
-	top:80em;
-	padding:0;
-	margin:0;
-	width:100%;
-	height: 5em;
-	background-color:rgba(6,232,230,0.4);
-}
-
 .blueline3 {
 	width:100%;
 	height:0.1em;
@@ -867,13 +824,7 @@
 #contactBGimage {
 	width:100%;
 	position:relative;
-	top:0;
-	left:0;
-	margin-bottom:-5em;
-	z-index:0;
-	background-image:url(Gallery%20Pictures/PS-0655.jpg);
-	background-size:cover;
-	height:800px;
+	margin-bottom:-5.3em;
 }
 
 #teamBGimage {
@@ -884,131 +835,7 @@
 	margin-bottom:-5em;
 	z-index:0;
 	background-image:url(kane_051blur.JPG);
-	background-size:contain;
-	height:1200px;
+	background-size:cover;
+	height:800px;
 }
-
-#grid-container {
-	width:95%;
-	margin:6em auto;
-}
-
-#grid-container-projects {
-	width:95%;
-	margin-top:6em;
-	left:0;
-}
-
-#kane {
-	width:33%;
-}
-
-.load {
-    opacity: 0;
-}
-
-#textdiv1.load1 {
-    opacity: 1;
-}
-
-#textdiv2.load2 {
-    opacity: 1;
-}
-
-#textdiv3.load1 {
-    opacity: 1;
-}
-
-#textdiv4.load2 {
-    opacity: 1;
-}
-
-#textdiv5.load1 {
-    opacity: 1;
-}
-
-#textdiv6.load2 {
-    opacity: 1;
-}
-
-#textdiv7.load2 {
-    opacity: 1;
-}
-
-#aboutBG.load3 {
-    opacity: 1;
-}
-
-#startLogo.click {
-	top: -20%;
-}
-
-#project1 {
-	width:30%;
-}
-
-#project2 {
-	width:30%;
-}
-
-#project3 {
-	width:40%;
-}
-
-#project4 {
-	width:40%;
-}
-
-#project5 {
-	width:40%;
-}
-
-#project6 {
-	width:40%;
-}
-
-#project7 {
-	width:40%;
-}
-
-html {
-  height: 100%; 
-  margin:0;
-  padding:0;
-}
-
-body {
-  min-height: 100%;
-  display:-webkit-flex;
-  display: flex;
-  flex-direction: column;
-  margin:0;
-  padding:0;
-}
-
-.content {
-  -webkit-box-flex: 1 0 auto;
-  -webkit-flex: 1 0 auto;
-  -ms-flex: 1 0 auto;
-  flex: 1 0 auto;
-  padding-bottom: 0em;
-  position:relative;
-}
-
-.cbp-l-grid-mosaic-flat .cbp-item {
-  width: 700px;
-}
-
-footer a {
-	text-decoration:none;
-	color:rgba(0,0,0,1.00)
-}
-
-footer a:hover{
-	text-decoration:underline;
-	color:rgba(0,0,0,1.00)
-}
-
-label {
-	font-size:2em;
 }
