@@ -3,12 +3,17 @@
  * (c) 2016 Josh Cope
  * licensed under MIT
  */
+ @font-face {
+	font-family:'ostrich regular';
+	src:url(ostrich-sans/ostrich-regular.ttf);
+}
+ 
 .slicknav_btn {
   position: relative;
   display: block;
   vertical-align: middle;
   float: right;
-  padding: 0.438em 0.625em 0.438em 0.625em;
+  padding: 0.6em 0.8em 0.6em 0.8em;
   line-height: 1.125em;
   cursor: pointer; }
   .slicknav_btn .slicknav_icon-bar + .slicknav_icon-bar {
@@ -41,9 +46,7 @@
     -webkit-border-radius: 1px;
     -moz-border-radius: 1px;
     border-radius: 1px;
-    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
-    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
-    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25); }
+ }
   .slicknav_menu:before {
     content: " ";
     display: table; }
@@ -78,25 +81,28 @@
 .slicknav_menu {
   font-size: 16px;
   box-sizing: border-box;
-  background: #4c4c4c;
-  padding: 5px; }
-  .slicknav_menu * {
+  background-color:rgba(255,255,255,1.00);
+    padding: 1px; }
+.slicknav_menu * {
     box-sizing: border-box; }
   .slicknav_menu .slicknav_menutxt {
-    color: #fff;
+    color: rgba(6,232,230,1.00);
     font-weight: bold;
     text-shadow: 0 1px 3px #000; }
   .slicknav_menu .slicknav_icon-bar {
-    background-color: #fff; }
+    background-color:rgba(6,232,230,1.00); }
 
 .slicknav_btn {
   margin: 5px 5px 6px;
   text-decoration: none;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
   border-radius: 4px;
-  background-color: #222; }
+  background-color:rgba(255,255,255,1.00);
+  border-color:rgba(178,178,178,1.00);
+  border-style:solid;
+  border-width:0.15em;}
 
 .slicknav_nav {
   color: #fff;
@@ -114,22 +120,25 @@
     padding: 5px 10px;
     margin: 2px 5px; }
     .slicknav_nav .slicknav_row:hover {
-      -webkit-border-radius: 6px;
-      -moz-border-radius: 6px;
-      border-radius: 6px;
-      background: #ccc;
-      color: #fff; }
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 3px;
+      border-radius: 3px;
+      background: rgba(6,232,230,1.00);
+      color: rgba(6,232,230,1.00); }
   .slicknav_nav a {
+	text-align:center;
+	font-size:2em;
+	font-family:"ostrich regular";
     padding: 5px 10px;
     margin: 2px 5px;
     text-decoration: none;
-    color: #fff; }
+    color:rgba(0,0,0,1.00);}
     .slicknav_nav a:hover {
-      -webkit-border-radius: 6px;
-      -moz-border-radius: 6px;
-      border-radius: 6px;
-      background: #ccc;
-      color: #222; }
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      border-radius: 3px;
+      background: rgba(6,232,230,0.5);
+      color: #fff; }
   .slicknav_nav .slicknav_txtnode {
     margin-left: 15px; }
   .slicknav_nav .slicknav_item a {

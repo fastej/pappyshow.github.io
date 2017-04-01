@@ -7,6 +7,17 @@
 
 @media only screen and (min-width: 375px) and (max-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
 	
+.js #menu {
+	display:none;
+}
+	
+.js .slicknav_menu {
+	position:absolute;
+	display:block;
+	width:100%;
+	top:0.5em;
+}
+	
 .blueLine1 {
 	top:34.9em
 }
