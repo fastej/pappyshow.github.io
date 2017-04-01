@@ -178,6 +178,19 @@ function WidthChange(mq) {
 if ($('#BGimage').length > 0) {
 	$("#startLogo").delay(200).fadeIn(1500);
 	$("#click").delay(400).fadeToggle(500);
+	$("#click").on("click", function(){
+	var href = $('#launchLink').attr('href');
+
+             // Delay setting the location for one second
+    setTimeout(function() {
+		window.location = href}, 10000);
+	$('body').removeClass('stop-scrolling');
+	$('#startLogo').addClass("click");
+	$('#startLogo').fadeOut(600);
+	$("#widthAdjust").addClass("load");
+	$("#BGimage").animate({"z-index":-100},{queue: false, duration: 1000});
+	$("#click").animate({"opacity": 0,"z-index":-101},300);
+});
 	} else {
 	$("#header").show();
 	$("#blackStrip").show();
@@ -193,6 +206,14 @@ if ($('#BGimage').length > 0) {
   if ($('#BGimage').length > 0) {
 	$("#startLogo").delay(200).fadeIn(1500);
 	$("#click").delay(400).fadeToggle(500);
+	$("#click").on("click", function(){
+	$('body').removeClass('stop-scrolling');
+	$('#startLogo').addClass("click");
+	$('#startLogo').fadeOut(600);
+	$("#widthAdjust").addClass("load");
+	$("#BGimage").animate({"z-index":-100},{queue: false, duration: 1000});
+	$("#click").animate({"opacity": 0,"z-index":-101},300);
+});
 	} else {
 	$("#header").show();
 	$("#blackStrip").show();
@@ -255,32 +276,6 @@ $('#click').each(function(index, elem) {
     setTimeout(function() {
         $(elem).trigger('fade-cycle');
     }, index * 250);
-});
-
-		
-$("#click").on("click", function(){
-	$('body').removeClass('stop-scrolling');
-	$('#startLogo').addClass("click");
-	$('#startLogo').fadeOut(600);
-	$("#widthAdjust").addClass("load");
-	$("#BGimage").animate({"z-index":-100},{queue: false, duration: 1000});
-	$("#click").animate({"opacity": 0,"z-index":-101},300);
-	$("#blackStrip").delay(500).fadeIn(1000);
-	$(".paraWhite1").delay(500).addClass("load");
-	$(".paraWhite2").delay(500).addClass("load");
-	$("#textdiv1").delay(500).addClass("load1");
-	$("#textdiv2").delay(500).addClass("load2");	
-	$("#footer").show();
-	$(".blueLine1").fadeIn(1000);
-	$(".blueLine2").show();
-	$(".blueLine4").show();
-	$("#logo").delay(300).fadeIn(1000);
-	$(".headerOptionAbout").delay(450).fadeIn(1000);
-	$(".headerOptionTeam").delay(600).fadeIn(1000);
-	$(".headerOptionWorkshops").delay(750).fadeIn(1000);
-	$(".headerOptionProjects").delay(900).fadeIn(1000);
-	$(".headerOptionGallery").delay(1050).fadeIn(1000);
-	$(".headerOptionContact").delay(1050).fadeIn(1000);
 });
 
 
