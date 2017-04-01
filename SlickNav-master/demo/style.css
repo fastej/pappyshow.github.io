@@ -1,0 +1,16 @@
+.slicknav_menu {
+	display:none;
+}
+
+@media screen and (max-width: 40em) {
+	.js #menu {
+		display:none;
+	}
+	
+	.js .slicknav_menu {
+		display:block;
+		z-index:1000;
+		position:relative;
+		
+	}
+}

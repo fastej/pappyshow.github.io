@@ -653,7 +653,7 @@
 	text-align:justify;
 	line-height:1.8;
 	height:100%;
-}	
+}	 
 
 #aboutBGinner p {
 	margin:0.5em 1em;
@@ -1012,4 +1012,25 @@ footer a:hover{
 
 label {
 	font-size:2em;
+}
+
+.slicknav_menu {
+	display:none;
+}
+
+#menu {
+	display:none;
+}
+
+@media screen and (max-width: 767px) {
+	.js #menu {
+		display:none;
+	}
+	
+	.js .slicknav_menu {
+		position:absolute;
+		display:block;
+		width:100%;
+		top:9em;
+	}
 }
