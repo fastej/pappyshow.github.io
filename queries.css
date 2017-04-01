@@ -11,4 +11,36 @@
 	height: 15em;
 }
 
+#facebook {
+	display:none;
+}
+
+#twitter {
+	display:none;
+}
+
+#insta {
+	display:none;
+}
+
+#youtube {
+	display:none;
+}
+
+#facebookB {
+	display:none;
+}
+
+#twitterB {
+	display:none;
+}
+
+#instaB {
+	display:none;
+}
+
+#youtubeB {
+	display:none;
+}
+
 }
