@@ -179,11 +179,6 @@ if ($('#BGimage').length > 0) {
 	$("#startLogo").delay(200).fadeIn(1500);
 	$("#click").delay(400).fadeToggle(500);
 	$("#click").on("click", function(){
-	var href = $('#launchLink').attr('href');
-
-             // Delay setting the location for one second
-    setTimeout(function() {
-		window.location = href}, 10000);
 	$('body').removeClass('stop-scrolling');
 	$('#startLogo').addClass("click");
 	$('#startLogo').fadeOut(600);

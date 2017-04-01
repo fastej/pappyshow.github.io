@@ -8,27 +8,41 @@
 @media only screen and (min-width: 375px) and (max-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
 
 #footer {
-	height: 15em;
+	height: 10em;
+	margin-top:-10em;
+	
 }
 
 #facebook {
-	display:none;
+	height:40%;
+	left:4%;
+	top:5%;
+	margin-top:0;
 }
 
 #twitter {
-	display:none;
+	height:40%;
+	left:29%;
+	top:5%;
+	margin-top:0;
 }
 
 #insta {
-	display:none;
+	height:40%;
+	left:54%;
+	top:5%;
+	margin-top:0;
 }
 
 #youtube {
-	display:none;
+	height:40%;
+	left:79%;
+	top:5%;
+	margin-top:0;
 }
 
 #facebookB {
-	display:none;
+	display:none
 }
 
 #twitterB {
@@ -41,6 +55,32 @@
 
 #youtubeB {
 	display:none;
+}
+
+#seperator1 {
+	display:none;
+}
+
+#seperator2 {
+	display:none;
+}
+
+#footerText {
+	font-size:1.2em;
+	bottom:0%;
+	left:9%;
+}
+
+#footerAdmin {
+	font-size:1.2em;
+	bottom:2.4em;
+	left:11%;
+}
+
+#footerEddie {
+	font-size:1.2em;
+	bottom:1.2em;
+	left:20%;
 }
 
 }
