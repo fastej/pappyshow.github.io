@@ -211,6 +211,7 @@ if ($('#BGimage').length > 0) {
 });
 	} else {
 	$("#header").show();
+	$("#menu").show();
 	$("#blackStrip").show();
 	$("#logo").delay(300).show();
 	$(".headerOptionAbout").hide();
