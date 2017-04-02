@@ -469,7 +469,7 @@
 	width:100%;
 	height:35em;
 	position:relative;
-	z-index:-20;
+	z-index:3;
 	top:0;
 	left:0;
 }
@@ -633,7 +633,8 @@
 
 #aboutBG {
 	width:45%;
-	margin: 5em 51% 1em;
+	left: 51%;
+	top:5em;
 	opacity:0;
 	-webkit-transition: opacity 1s ease-out;
     -moz-transition: opacity 1s ease-out;
@@ -686,7 +687,7 @@
 	left:0;
 	height:40em;
 	position:relative;
-	z-index:-30;
+	z-index:3;
 }
 
 #aboutPic2 {
