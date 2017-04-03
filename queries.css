@@ -25,6 +25,7 @@
 	display:block;
 	width:100%;
 	top:0.5em;
+	z-index:1000;
 }
 	
 .blueLine1 {
