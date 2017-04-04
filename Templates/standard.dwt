@@ -8,6 +8,7 @@
 <!-- TemplateEndEditable -->
 <link href="../pappyCSS.css" rel="stylesheet" type="text/css">
 <link href="../queries.css" media="(max-width: 767px)" rel="stylesheet" type="text/css">
+<link href="../queriesMedium.css" media="(min-width: 768px) and (max-width:1000px)" rel="stylesheet" type="text/css">
 <link href="../queriesLarge.css" media="(min-width: 1300px)" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="../SlickNav-master/dist/slicknav.css" />
 <link rel="stylesheet" href="../SlickNav-master/demo/style.css">  

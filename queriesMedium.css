@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+
+#about {
+	left:35%;
+}
+
+#team {
+	left:75%;
+}
+
+#workshops {
+	left:61%;
+}
+
+#projects {
+	left:47%;
+}
+
+#contact {
+	left:88%;
+}
+
+}
