@@ -16,11 +16,11 @@
 	font-size:1em;
 }
 
-.js #menu {
+#menu {
 	display:none;
 }
 	
-.js .slicknav_menu {
+.slicknav_menu {
 	position:absolute;
 	display:block;
 	width:100%;
