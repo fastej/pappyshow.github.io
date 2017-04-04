@@ -92,6 +92,8 @@ $(document).ready( function() {
 		}
 	});
 	
+///$('#about').css('left' , 30*(767/($(window).width())) + '%'); 	
+	
 $("#facebook").hover(function(){
 	$(this).animate({opacity:"0"},250);
 	$("#facebookB").animate({opacity:"1"},250);

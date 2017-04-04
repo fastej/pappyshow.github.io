@@ -1014,3 +1014,17 @@ footer a:hover{
 label {
 	font-size:2em;
 }
+
+.slicknav_menu {
+	display:none;
+}
+
+#menu {
+		display:none;
+	}
+	
+@media screen and (min-width: 767px) and (max-width: 1000px) {
+#about {
+	left:30%;
+}
+}
