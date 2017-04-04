@@ -10,8 +10,7 @@
 <link href="../queries.css" media="(max-width: 767px)" rel="stylesheet" type="text/css">
 <link href="../queriesMedium.css" media="(min-width: 768px) and (max-width:1000px)" rel="stylesheet" type="text/css">
 <link href="../queriesLarge.css" media="(min-width: 1300px)" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="../SlickNav-master/dist/slicknav.css" />
-<link rel="stylesheet" href="../SlickNav-master/demo/style.css">  
+<link rel="stylesheet" href="../SlickNav-master/dist/slicknav.css" /> 
 <link rel="stylesheet" href="cubeportfolio/css/cubeportfolio.min.css">
 <link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Nixie+One|Oleo+Script" rel="stylesheet">
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
