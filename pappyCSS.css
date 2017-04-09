@@ -34,7 +34,7 @@
 	left:53%;
 	top:10em;
 	padding:0;
-	margin:0;
+	margin:0em;
 	width:45%;
 	opacity:0;
 	-webkit-transition: opacity 1s ease-out;
@@ -601,7 +601,7 @@
 	transition-delay:0.25s;
 }
 
-#aboutBG {
+#textdiv8 {
 	width:45%;
 	left: 51%;
 	top:5em;
@@ -616,7 +616,7 @@
 }
 
 #aboutBGinner {
-	padding-top:0em;
+	padding-top:0.2em;
 	width:100%;
 	margin: 0.2em auto;
 	background-color:rgba(6,232,230,0.8);
@@ -641,13 +641,11 @@
 
 #textdiv5 .innerTextDiv p {
 	font-size:calc(2vw + 2vh + 1vmin);
-	margin: 0.3em 10%;
 	font-family:"ostrich regular";
 }
 
 #textdiv7 .innerTextDiv p {
 	font-size:calc(2vw + 2vh + 1vmin);
-	margin: 0.3em 10%;
 	font-family:"ostrich regular";
 }
 
@@ -780,26 +778,28 @@
 	text-align:center;
 	font-size:1.8em;
 	position:absolute;
-	line-height:1.5em;
-	bottom:0.5em;
 	font-family:ostrich regular;
+	height:2em;
+	top:50%;
+	margin-top:-0.85em;
+	line-height:2em;
 }
 
 #footerEddie {
-	width:100%;
 	font-size:1.3em;
 	position:absolute;
 	top:30%;
 	line-height:1.5em;
 	left:3.5%;
 	font-family:ostrich regular;
+	z-index:20;
 }
 
 #seperator1 {
 	position:absolute;
 	top:50%;
-	margin-top:-1.25em;
-	width:0.1em;
+	margin-top:-1em;
+	width:0.2em;
 	height:50%;
 	background-color:rgba(0,0,0,0.2);
 	left:31%
@@ -808,8 +808,8 @@
 #seperator2 {
 	position:absolute;
 	top:50%;
-	margin-top:-1.25em;
-	width:0.1em;
+	margin-top:-1em;
+	width:0.2em;
 	height:50%;
 	background-color:rgba(0,0,0,0.2);
 	left:69%
@@ -914,7 +914,7 @@
     opacity: 1;
 }
 
-#aboutBG.load3 {
+#textdiv8.load3 {
     opacity: 1;
 }
 
@@ -1099,4 +1099,7 @@ label {
 	cursor:pointer;
 }
 	
-	
+.margin .innerTextDiv p {
+	padding-top: .5em;
+	margin: .5em;
+}

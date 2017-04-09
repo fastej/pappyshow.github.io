@@ -1,6 +1,44 @@
 @charset "UTF-8";
 
 @media screen and (max-width: 1000px) {
+	
+#youtube {
+	left:93%;
+}
+
+#facebook {
+	left:70.5%;
+}
+
+#twitter {
+	left:78%;
+}
+
+#insta {
+	left:85.5%;
+}
+	
+#footerEddie {
+	left:2%;
+	font-size:1.1em;
+}
+
+#footerText {
+	left:2%;
+	font-size:1.1em;
+}
+
+#footerAdmin {
+	font-size:1.4em;
+}
+
+#seperator1 {
+	left:32%;
+}
+
+#seperator2 {
+	left:67%;
+}
 
 #about {
 	left:35%;

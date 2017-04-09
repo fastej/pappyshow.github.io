@@ -158,7 +158,7 @@ $(document).ready(function(){
 	
 	if ($(".aboutPage").length>0) {
 		$(".blueline3").fadeIn(1000);
-		$("#aboutBG").addClass("load3");
+		$("#textdiv8").addClass("load3");
 		$(".paraWhite1").addClass("load");
 		$(".downArrow").addClass("load1");
 	}
