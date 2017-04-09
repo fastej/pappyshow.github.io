@@ -19,7 +19,6 @@
 		font-family:'ostrich regular' }
 </style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script> 
 <script src="SlickNav-master/dist/jquery.slicknav.js"></script>
 <script src="parallax.js-1.4.2/parallax.min.js"></script>
@@ -78,20 +77,24 @@
 
 <!-- InstanceBeginEditable name="EditRegion3" -->
 <div class="content">
-<div id="para1" data-parallax="scroll" data-image-src="kane_082.JPG" data-bleed="50" >
+<div id="para1" data-parallax="scroll" data-image-src="kane_082.JPG" data-bleed="50" data-ios-fix="false">
 	<div class="paraWhite1"></div>
     	<div id="textdiv1">
    	 		<div class="innerTextDiv">
     			<p><b>PappyShow</b> – "A description of something ridiculous, ludicrous that is being mocked or made fun of."</p>
    			</div>
 		</div>
+    <div class="downArrow"><img alt="" src="arrowDownBlue.png" id="arrow1" /></div>
 	<div class="blueLine1 bottom"></div>
 </div>
 <div class="paraWhite2"></div>
-<div id="paravid" data-parallax="scroll" data-image-src="kane_055.JPG" data-bleed="80" >
+<div id="paravid" data-parallax="scroll" data-image-src="kane_055.JPG" data-bleed="0" data-ios-fix="false">
+	<div class="layer">
+    </div>
     <div id="youtubeDiv">
 		<iframe id="film" src="https://player.vimeo.com/video/207638355?controls=0&autoplay=&showinfo=0&loop=1&modestbranding=1&rel=0" frameborder="0" scrolling="no" marginwidth="0" allowfullscreen></iframe>
 	</div>	
+    <div class="downArrow"><img alt="" src="arrowDownBlack.png" id="arrow2" /></div>
 	<div class="blueLine4 bottom"></div>
 </div>
 <div id="para2" data-parallax="scroll" data-image-src="kane_155.JPG" data-bleed="20">
@@ -100,9 +103,10 @@
     			<p>A test of some possible text that could go here, but we aren't sure what will definitely go here yet.</p>
     		</div>
 		</div>
+    <div class="downArrow"><img alt="" src="arrowDownBlue.png" id="arrow3" /></div>
 	<div class="blueLine2 bottom"></div>
 </div>
-<div id="para3" data-parallax="scroll" data-image-src="kane_017.JPG" data-bleed="80">
+<div id="para3" data-parallax="scroll" data-image-src="kane_017.JPG" data-bleed="80" data-ios-fix="false">
 </div>
 </div>
 <!-- InstanceEndEditable -->

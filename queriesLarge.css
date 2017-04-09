@@ -235,20 +235,6 @@
 	color:rgba(0,0,0,1.00)
 }
 
-.headerOptionGallery {
-	width:7em;
-	height:2.5em;
-	text-align:center;
-	position:absolute;
-	top:50%;
-	margin-top:-1.25em;
-	line-height:2.5em;
-	font-family:ostrich regular;
-	display:none;
-	text-decoration:none;
-	color:rgba(0,0,0,1.00)
-}
-
 .headerOptionContact {
 	width:7em;
 	height:2.5em;
@@ -283,12 +269,6 @@
 
 #projects {
 	left:60%;
-	z-index:13;
-	position:absolute;
-}
-
-#gallery {
-	left:80%;
 	z-index:13;
 	position:absolute;
 }
@@ -335,16 +315,6 @@
 }
 
 .optionLineProjects {
-	width:3.5em;
-	height:0.4em;
-	background-color:rgba(6,232,230,1.00);
-	margin: auto;
-	display:none;
-	position:relative;
-	top:-10%;
-}
-
-.optionLineGallery {
 	width:3.5em;
 	height:0.4em;
 	background-color:rgba(6,232,230,1.00);
