@@ -161,6 +161,15 @@ $(document).ready(function(){
 		$("#textdiv8").addClass("load3");
 		$(".paraWhite1").addClass("load");
 		$(".downArrow").addClass("load1");
+		$("#footer").show();
+	}
+	
+	if ($(".projectsPage").length>0) {
+		$("#footer").delay(3000).fadeIn(1000);
+	}
+	
+	if ($(".teamPage").length>0) {
+		$("#footer").delay(3000).fadeIn(1000);
 	}
 });
 
