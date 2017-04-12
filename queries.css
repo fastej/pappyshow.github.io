@@ -40,11 +40,11 @@
 }
 
 #textdiv1 .innerTextDiv p {
-	font-size:2.5em;
+	font-size:2em;
 }
 
 #textdiv2 .innerTextDiv p {
-	font-size:2.5em;
+	font-size:2em;
 }
 
 #footer {
@@ -95,7 +95,7 @@
 #footerText {
 	width:100%;
 	text-align:center;
-	font-size:1.5em;
+	font-size:1em;
 	left:0%;
 	top:75%;
 }
@@ -103,7 +103,7 @@
 #footerAdmin {
 	width:100%;
 	text-align:center;
-	font-size:1.5em;
+	font-size:1em;
 	left:0%;
 	top:53%
 }
@@ -111,9 +111,9 @@
 #footerEddie {
 	width:100%;
 	text-align:center;
-	font-size:1.5em;
+	font-size:1em;
 	left:0%;
-	top: 59%;
+	top: 61%;
 }
 
 #grid-container-projects {
@@ -162,6 +162,20 @@
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+
+#para1 .downArrow {
+	top:90%;
+}
+
+#paravid .downArrow {
+	top:85%;
+}
+
+#para2 .downArrow {
+	top:88%;
+}
+
+
 
 #widthAdjust {
 	background-position: -15em;
@@ -279,7 +293,7 @@
 }
 
 .blueLine4 {
-	top:20em;
+	top:19.9em;
 }
 
 .blueLine5 {
@@ -291,12 +305,12 @@
 }
 
 .blueLine2 {
-		top:39.9em;
+		top:34.9em;
 }
 
 #textdiv1 {
 	left:7.5%;
-	top:15em;
+	top:13em;
 	width:85%;
 }
 
@@ -308,7 +322,7 @@
 
 #textdiv5 {
 	left:7.5%;
-	top:8em;
+	top:11em;
 	width:85%;
 }
 
@@ -339,23 +353,23 @@
 }
 
 #textdiv1 .innerTextDiv p {
-	font-size:2.5em;
+	font-size:1.7em;
 }
 
 #textdiv6 .innerTextDiv p {
-	font-size:2.5em;
+	font-size:2em;
 }
 
 #textdiv7 .innerTextDiv p {
-	font-size:2em;
+	font-size:1.5em;
 }
 
 #textdiv5 .innerTextDiv p {
-	font-size:2em;
+	font-size:1.33em;
 }
 
 #textdiv2 .innerTextDiv p {
-	font-size:2.5em;
+	font-size:2em;
 }
 
 #footer {
@@ -440,21 +454,27 @@
 }
 
 #footerText {
-	font-size:1.2em;
+	font-size:0.8em;
 	bottom:0%;
 	left:0%;
+	top:79%;
 }
 
 #footerAdmin {
-	font-size:1.2em;
+	font-size:0.8em;
 	bottom:2.4em;
 	left:0%;
 }
 
 #footerEddie {
-	font-size:1.2em;
+	font-size:0.8em;
 	bottom:1.2em;
 	left:0%;
+	top:64%;
+}
+
+#mc_embed_signup {
+	margin-top:-4em;
 }
 
 }

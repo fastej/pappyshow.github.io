@@ -200,7 +200,7 @@
 	top:50%;
 	margin-top:-1.25em;
 	line-height:2.5em;
-	font-family:ostrich regular;
+	font-family:Quicksand;
 	display:none;
 	text-decoration:none;
 	color:rgba(0,0,0,1.00)
@@ -214,7 +214,7 @@
 	top:50%;
 	margin-top:-1.25em;
 	line-height:2.5em;
-	font-family:ostrich regular;
+	font-family:Quicksand;
 	display:none;
 	text-decoration:none;
 	color:rgba(0,0,0,1.00)
@@ -228,7 +228,7 @@
 	top:50%;
 	margin-top:-1.25em;
 	line-height:2.5em;
-	font-family:ostrich regular;
+	font-family:Quicksand;
 	display:none;
 	text-decoration:none;
 	color:rgba(0,0,0,1.00)
@@ -242,7 +242,7 @@
 	top:50%;
 	margin-top:-1.25em;
 	line-height:2.5em;
-	font-family:ostrich regular;
+	font-family:Quicksand;
 	display:none;
 	text-decoration:none;
 	color:rgba(0,0,0,1.00)
@@ -256,7 +256,7 @@
 	top:50%;
 	margin-top:-1.25em;
 	line-height:2.5em;
-	font-family:ostrich regular;
+	font-family:Quicksand;
 	display:none;
 	text-decoration:none;
 	color:rgba(0,0,0,1.00)
@@ -293,7 +293,7 @@
 }
 
 .fontSize {
-	font-size:1.7em;
+	font-size:1em;
 	font-weight:400;
 }
 
@@ -392,7 +392,7 @@
 	width:8%;
 	left:50%;
 	margin-left:-7%;
-	font-family:ostrich regular;
+	font-family:Quicksand;
 	font-size:1.5em;
 	opacity:0.8;
 	display:none;
@@ -621,7 +621,7 @@
 	width:100%;
 	margin: 0.2em auto;
 	background-color:rgba(6,232,230,0.8);
-	font-family:ostrich regular;
+	font-family:Quicksand;
 	text-align:justify;
 	line-height:1.8;
 	height:100%;
@@ -629,25 +629,26 @@
 
 #aboutBGinner p {
 	margin:0.5em 1em;
-	font-family: 'Nixie One', cursive;
+	font-family: 'Quicksand', cursive;
 	font-size:calc(1vw + 1vh + 0.3vmin);
 
 }
 
 .innerTextDiv p {
-	font-size:calc(2.55vw + 2.55vh + 1.4vmin);
+	font-size:calc(1.7vw + 1.7vh + 1.4vmin);
+	font-weight:100;
 	margin: 0 0;
-	font-family:"ostrich regular";
+	font-family:"Quicksand";
 }
 
 #textdiv5 .innerTextDiv p {
-	font-size:calc(2vw + 2vh + 1vmin);
-	font-family:"ostrich regular";
+	font-size:calc(1.4vw + 1.4vh + 1vmin);
+	font-family:"Quicksand";
 }
 
 #textdiv7 .innerTextDiv p {
-	font-size:calc(2vw + 2vh + 1vmin);
-	font-family:"ostrich regular";
+	font-size:calc(1.4vw + 1.4vh + 1vmin);
+	font-family:"Quicksand";
 }
 
 #aboutPic {
@@ -766,20 +767,21 @@
 
 #footerText {
 	width:100%;
-	font-size:1.3em;
+	font-size:0.8em;
 	position:absolute;
 	top:57%;
 	line-height:1.5em;
-	left:3.5%;
-	font-family:ostrich regular;
+	left:2.5%;
+	font-family:Quicksand;
 }
 
 #footerAdmin {
 	width:100%;
 	text-align:center;
-	font-size:1.8em;
+	font-size:1em;
+	font-weight:100;
 	position:absolute;
-	font-family:ostrich regular;
+	font-family:Quicksand;
 	height:2em;
 	top:50%;
 	margin-top:-0.85em;
@@ -787,12 +789,12 @@
 }
 
 #footerEddie {
-	font-size:1.3em;
+	font-size:0.8em;
 	position:absolute;
 	top:30%;
 	line-height:1.5em;
-	left:3.5%;
-	font-family:ostrich regular;
+	left:2.5%;
+	font-family:Quicksand;
 	z-index:20;
 }
 
