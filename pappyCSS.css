@@ -373,11 +373,11 @@
 }
 
 #startLogo{
+	left:50%;
+	margin-left:-14.5em;
 	position:absolute;
 	top:30%;
-	width:30%;
-	left:48%;
-	margin-left:-15%;
+	width:25em;
 	display:none;
 	-webkit-transition: top 1s ease-in;
     -moz-transition: top 1s ease-in;
@@ -388,10 +388,10 @@
 	
 #click {
 	position:absolute;
-	top:60%;
-	width:8%;
+	top:calc(5em + 47%);
+	width:5em;
 	left:50%;
-	margin-left:-7%;
+	margin-left:-4em;
 	font-family:Quicksand;
 	font-size:1.5em;
 	opacity:0.8;
@@ -1106,3 +1106,4 @@ label {
 	padding-top: .5em;
 	margin: .5em;
 }
+
