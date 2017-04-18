@@ -159,6 +159,7 @@
 	clear:both;
 	flex-shrink: 0;
 	display:none;
+	overflow:hidden;
 }
 
 .innerTextDiv {
@@ -362,7 +363,7 @@
 	position:relative;
 	top:0em;
 	background-image:url(kane_015.JPG);
-	background-position: 50% 50%;
+	background-position: 45% 50%;
 	background-repeat: no-repeat;
 	background-size:cover;
 	-webkit-transition: opacity 2s ease-out;
@@ -374,7 +375,7 @@
 
 #startLogo{
 	left:50%;
-	margin-left:-14.5em;
+	margin-left:-12.5em;
 	position:absolute;
 	top:30%;
 	width:25em;
@@ -391,7 +392,7 @@
 	top:calc(5em + 47%);
 	width:5em;
 	left:50%;
-	margin-left:-4em;
+	margin-left:-2.5em;
 	font-family:Quicksand;
 	font-size:1.5em;
 	opacity:0.8;
@@ -404,9 +405,8 @@
 	height:42em;
 	position:relative;
 	z-index:20;
-	top:3em;
 	left:0;
-	background-color:rgba(6,232,230,0.7);
+	background-color: rgba(6,232,230,0.7);
 }
 	
 #para1 {
@@ -440,7 +440,7 @@
 	width:100%;
 	height:35em;
 	position:relative;
-	z-index:3;
+	z-index:4;
 	top:0;
 	left:0;
 }
@@ -472,6 +472,18 @@
 	left:0;
 }
 
+#para4 .blueLine1 {
+	top:35em;
+}
+
+#para5 .blueLine2 {
+	top:35em;
+}
+
+#para6 .blueLine5 {
+	top:35em;
+}
+
 
 .blueLine1 {
 	width:100%;
@@ -479,7 +491,7 @@
 	position:absolute;
 	background-color:rgba(6,232,230,1.00);
 	display:none;
-	top:38em;
+	top:35em;
 	left:0;
 	z-index:-1;
 }
@@ -490,7 +502,7 @@
 	position:absolute;
 	background-color:rgba(6,232,230,1.00);
 	display:none;
-	top:36.2em;
+	top:35em;
 	left:0;
 	z-index:-1;
 }
@@ -1024,20 +1036,24 @@ label {
 	top:93%;
 }
 
+#para1 .downArrow {
+	top:92%;
+}
+
 #para2 .downArrow {
 	top:90%;
 }
 
 #para4 .downArrow {
-	top:95%;
+	top:90%;
 }
 
 #para5 .downArrow {
-	top:92%;
+	top:90%;
 }
 
 #para6 .downArrow {
-	top:92%;
+	top:90%;
 }
 
 #aboutPic .downArrow {

@@ -1,5 +1,300 @@
 @charset "UTF-8";
 
+@media screen and (max-width: 1000px) {
+	
+#para1 .downArrow {
+	top:90%;
+}
+
+#paravid .downArrow {
+	top:90%;
+}
+
+#para2 .downArrow {
+	top:88%;
+}
+
+#para4 .downArrow {
+	top:90%;
+}
+
+/*#widthAdjust {
+	background-position: -21em;
+}
+
+#startLogo{
+	width:70%;
+	margin-left:-35%;
+}
+
+#click{
+	width:20%;
+	margin-left:-10%;
+}*/
+
+
+/*#para3 {
+	background-image:url(kane_017.JPG);
+	background-position: 40%;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+#para4 {
+	background-image:url(kane_034.JPG);
+	background-position: 20%;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+#para5 {
+	background-image:url(kane_173.JPG);
+	background-position: 35%;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+#para7 {
+	background-image:url(kane_142.JPG);
+	background-position: 40%;
+	background-repeat:no-repeat;
+	background-size:cover;
+}*/
+
+#aboutPic {
+	background-image:url(kane_140.JPG);
+	background-position: 20%;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+#aboutPic2 {
+	background-image:url(kane_178.JPG);
+	background-position: 10%;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+#contactBGimage {
+	background-position:20%;
+}
+
+#paravid {
+	width:100%;
+	height:35em;
+	position:relative;
+	z-index:20;
+	top:0em;
+	left:0;
+	background-color:transparent;
+}
+
+.layer {
+    background-color: rgba(6,232,230,0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#para4 .blueLine1 {
+	top:35em;
+}
+
+#para5 .blueLine2 {
+	top:35em;
+}
+
+#para6 .blueLine5 {
+	top:35em;
+}
+
+
+.blueLine1 {
+	top:34.9em;
+}
+
+.blueLine4 {
+	top:34.9em;
+}
+
+.blueLine5 {
+	top:35em;
+}
+
+.blueline3 {
+	top:40em;
+}
+
+.blueLine2 {
+	top:34.9em;
+}
+
+#textdiv1 {
+	top:17em;
+}
+
+#textdiv5 {
+	left:7.5%;
+	top:15em;
+	width:85%;
+}
+
+#textdiv6 {
+	left:7.5%;
+	top:14em;
+	width:85%;
+}
+
+#textdiv7 {
+	left:7.5%;
+	top:12em;
+	width:85%;
+}
+
+#contactBGimage #textdiv3 {
+	left:7.5%;
+	top:33em;
+	width:85%;
+	font-size:0.6em;
+}
+
+#contactBGimage #textdiv4 {
+	left:7.5%;
+	top:8em;
+	width:85%;
+	font-size:0.8em;
+}
+
+#textdiv1 .innerTextDiv p {
+	font-size:1.7em;
+}
+
+#textdiv6 .innerTextDiv p {
+	font-size:2.5em;
+}
+
+#textdiv7 .innerTextDiv p {
+	font-size:1.7em;
+}
+
+#textdiv5 .innerTextDiv p {
+	font-size:1.6em;
+}
+
+#textdiv2 .innerTextDiv p {
+	font-size:2em;
+}
+
+#para3 {
+	margin-bottom:-3em;
+}
+
+#para7 {
+	margin-bottom:-3em;
+}
+
+#contactBGimage {
+	margin-bottom: -3em;
+}
+
+#aboutPic2 {
+	margin-bottom:-3em;
+}
+
+#grid-container-projects {
+	margin-bottom:5em;
+}
+
+#grid-container {
+	margin-bottom:5em;
+}
+
+#mc_embed_signup {
+	margin-top:-4em;
+}
+
+#footer {
+	margin-top: -2em;
+}
+	
+#youtube {
+	left:92.5%;
+}
+
+#facebook {
+	left:68.5%;
+}
+
+#twitter {
+	left:76.5%;
+}
+
+#insta {
+	left:84.5%;
+}
+
+#youtubeB {
+	left:92.5%;
+}
+
+#facebookB {
+	left:68.5%;
+}
+
+#twitterB {
+	left:76.5%;
+}
+
+#instaB {
+	left:84.5%;
+}
+	
+#footerEddie {
+	left:2%;
+	font-size:0.65em;
+}
+
+#footerText {
+	left:2%;
+	font-size:0.65em;
+}
+
+#footerAdmin {
+	font-size:0.8em;
+}
+
+#seperator1 {
+	left:32%;
+}
+
+#seperator2 {
+	left:67%;
+}
+
+#about {
+	left:33%;
+}
+
+#team {
+	left:73%;
+}
+
+#workshops {
+	left:59%;
+}
+
+#projects {
+	left:45%;
+}
+
+#contact {
+	left:86%;
+}
+
+}
+
 /* resize desktop */
 
 @media screen and (max-width: 767px) {
@@ -16,15 +311,15 @@
 	}
 	
 	.blueLine1 {
-	top:38em
+	top:35em
 }
 
 .blueLine4 {
-	top:42em;
+	top:35em;
 }
 
 .blueLine2 {
-	top:36.2em;
+	top:35em;
 }
 
 #textdiv1 {
@@ -183,7 +478,7 @@
 
 #startLogo{
 	width:70%;
-	margin-left:-30%;
+	margin-left:-35%;
 }
 
 #click{
