@@ -76,7 +76,7 @@
 }
 
 #contactBGimage {
-	background-position:20%;
+	background-position:-10em;
 }
 
 #paravid {
@@ -155,7 +155,7 @@
 
 #contactBGimage #textdiv3 {
 	left:7.5%;
-	top:33em;
+	top:47em;
 	width:85%;
 	font-size:0.6em;
 }
@@ -421,7 +421,7 @@
 
 #contactBGimage #textdiv3 {
 	left:7.5%;
-	top:33em;
+	top:44em;
 	width:85%;
 	font-size:0.6em;
 }
@@ -443,7 +443,7 @@
 }
 
 #aboutBGinner p {
-	font-size:1.3em;
+	font-size:1.1em;
 }
 
 #aboutPic .downArrow {

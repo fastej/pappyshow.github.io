@@ -854,6 +854,7 @@
 }
 
 #contactBGimage {
+	height:60em;
 	width:100%;
 	position:relative;
 	top:0;
@@ -862,7 +863,6 @@
 	z-index:0;
 	background-image:url(Gallery%20Pictures/PS-0655.jpg);
 	background-size:cover;
-	height:800px;
 }
 
 #teamBGimage {
