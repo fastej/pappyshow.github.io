@@ -362,9 +362,9 @@
 	height:inherit;
 	position:relative;
 	top:0em;
-	background-image:url(kane_015.JPG);
-	background-position: 45% 50%;
+	background-image:url(indexImage.png);
 	background-repeat: no-repeat;
+	background-position:center;
 	background-size:cover;
 	-webkit-transition: opacity 2s ease-out;
     -moz-transition: opacity 2s ease-out;
@@ -586,7 +586,7 @@
 	display:block;
 	z-index: 1;
 	position:absolute;
-	top:3em;
+	top:0em;
 	left:0;
 	opacity:1;
 	-webkit-transition: opacity 1s ease-out;
@@ -604,7 +604,7 @@
 	display:block;
 	z-index: 200;
 	position:absolute;
-	top:38em;
+	top:35em;
 	left:0;
 	-webkit-transition: opacity 1s ease-out;
     -moz-transition: opacity 1s ease-out;

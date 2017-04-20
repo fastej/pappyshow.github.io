@@ -18,15 +18,11 @@
 	top:90%;
 }
 
-/*#widthAdjust {
-	background-position: -21em;
-}
-
 #startLogo{
-	width:70%;
-	margin-left:-35%;
+	width:20em;
+	margin-left:-10em;
 }
-
+/*
 #click{
 	width:20%;
 	margin-left:-10%;
@@ -310,7 +306,7 @@
 		z-index:1001;
 	}
 	
-	.blueLine1 {
+.blueLine1 {
 	top:35em
 }
 
@@ -448,6 +444,10 @@
 
 #aboutPic .downArrow {
 	display:none;
+}
+
+#para1 .innerTextDiv p {
+	font-size:2em;
 }
 }
 
