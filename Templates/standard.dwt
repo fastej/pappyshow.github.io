@@ -90,10 +90,9 @@
                 <div class= "optionLineContact"></div>
             </div>	
         </a>	
+    <div id="blackStrip"></div>
+	<div id="book"> <div id="bookTest">Book your place on our weekly Monday Movement workshops <a href="../booking.html">HERE</a></div></div>
     </div>
-    
-<div id="blackStrip"></div>
-
 <!-- TemplateBeginEditable name="EditRegion3" -->
 <!-- TemplateEndEditable -->
 <script type="text/javascript">

@@ -128,7 +128,7 @@
 }
 
 #textdiv1 {
-	top:17em;
+	top:16em;
 }
 
 #textdiv5 {
@@ -149,14 +149,14 @@
 	width:85%;
 }
 
-#contactBGimage #textdiv3 {
+#contactBGimage #textdiv10 {
 	left:7.5%;
 	top:47em;
 	width:85%;
 	font-size:0.6em;
 }
 
-#contactBGimage #textdiv4 {
+#contactBGimage #textdiv11 {
 	left:7.5%;
 	top:8em;
 	width:85%;
@@ -164,7 +164,7 @@
 }
 
 #textdiv1 .innerTextDiv p {
-	font-size:1.7em;
+	font-size:1.4em;
 }
 
 #textdiv6 .innerTextDiv p {
@@ -180,7 +180,7 @@
 }
 
 #textdiv2 .innerTextDiv p {
-	font-size:2em;
+	font-size:1.4em;
 }
 
 #para3 {
@@ -320,7 +320,7 @@
 
 #textdiv1 {
 	left:7.5%;
-	top:15em;
+	top:19em;
 	width:85%;
 }
 
@@ -331,11 +331,11 @@
 }
 
 #textdiv1 .innerTextDiv p {
-	font-size:2em;
+	font-size:1.4em;
 }
 
 #textdiv2 .innerTextDiv p {
-	font-size:2em;
+	font-size:1.5em;
 }
 
 #footer {
@@ -415,14 +415,14 @@
 	margin-bottom:8em;
 }
 
-#contactBGimage #textdiv3 {
+#contactBGimage #textdiv10 {
 	left:7.5%;
 	top:44em;
 	width:85%;
 	font-size:0.6em;
 }
 
-#contactBGimage #textdiv4 {
+#contactBGimage #textdiv11 {
 	left:7.5%;
 	top:8em;
 	width:85%;
@@ -446,8 +446,42 @@
 	display:none;
 }
 
-#para1 .innerTextDiv p {
-	font-size:2em;
+#book {
+	font-size:0.7em;
+	top:6.2em;
+}
+
+#textdiv9 .innerTextDiv p {
+	font-size:1em;
+	margin-top:2.7em;
+}
+
+#textdiv9 {
+	height:41em;
+}
+}
+
+@media screen and (max-width: 550px) {
+	
+#startLogo {
+	width:10em;
+}
+
+#textdiv9 .innerTextDiv p {
+	font-size:0.8em;
+	margin-top:2.7em;
+}
+
+#textdiv9 {
+	height:41em;
+}
+
+#textdiv1 .innerTextDiv p {
+	font-size:1.2em;
+}
+
+#textdiv2 .innerTextDiv p {
+	font-size:1.3em;
 }
 }
 
@@ -491,12 +525,16 @@
 	left: 7.5%;
 }
 
+#textdiv9 {
+	height:42.5em;
+}
+
 #aboutPic .downArrow {
 	display:none;
 }
 
 #aboutBGinner p {
-	font-size:1em;
+	font-size:1.07em;
 }
 
 #menu {
@@ -516,6 +554,8 @@
 	background-repeat:no-repeat;
 	background-size:cover;
 }
+
+
 
 #para3 {
 	background-image:url(kane_017.JPG);
@@ -605,13 +645,13 @@
 
 #textdiv1 {
 	left:7.5%;
-	top:13em;
+	top:15em;
 	width:85%;
 }
 
 #textdiv2 {
 	left:7.5%;
-	top:10em;
+	top:8em;
 	width:85%;
 }
 
@@ -633,22 +673,22 @@
 	width:85%;
 }
 
-#contactBGimage #textdiv3 {
+#contactBGimage #textdiv10 {
 	left:7.5%;
 	top:33em;
 	width:85%;
 	font-size:0.6em;
 }
 
-#contactBGimage #textdiv4 {
+#contactBGimage #textdiv11 {
 	left:7.5%;
-	top:8em;
+	top:11em;
 	width:85%;
 	font-size:0.8em;
 }
 
 #textdiv1 .innerTextDiv p {
-	font-size:1.7em;
+	font-size:1.3em;
 }
 
 #textdiv6 .innerTextDiv p {
@@ -664,7 +704,7 @@
 }
 
 #textdiv2 .innerTextDiv p {
-	font-size:2em;
+	font-size:1.3em;
 }
 
 #footer {

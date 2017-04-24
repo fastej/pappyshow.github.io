@@ -140,6 +140,8 @@ $(document).ready(function(){
 		$(".blueLine5").show();
 		$(".paraWhite1").addClass("load");
 		$(".paraWhite2").addClass("load");
+		$(".paraWhite1").delay(3000).animate({"z-index":-100});
+		$(".paraWhite2").delay(3000).animate({"z-index":-100});
 		$("#textdiv5").addClass("load1");
 		$("#textdiv6").addClass("load2");
 		$("#textdiv7").addClass("load2");
@@ -152,8 +154,8 @@ $(document).ready(function(){
 		$(".blueLine2").show();
 		$(".paraWhite1").addClass("load");
 		$(".paraWhite1").delay(1000).animate({"z-index":-100});
-		$("#textdiv3").addClass("load1");
-		$("#textdiv4").addClass("load2");
+		$("#textdiv10").addClass("load1");
+		$("#textdiv11").addClass("load2");
 	}
 	
 	if ($(".aboutPage").length>0) {
@@ -170,6 +172,14 @@ $(document).ready(function(){
 	
 	if ($(".teamPage").length>0) {
 		$("#footer").delay(3000).fadeIn(1000);
+	}
+	
+	if ($(".bookingPage").length>0) {
+		$(".paraWhite1").addClass("load");
+		$(".paraWhite1").delay(1000).animate({"z-index":-100});
+		$("#textdiv9").addClass("load2");
+		$("#footer").delay(3000).fadeIn(1000);
+		$("#book").hide();
 	}
 });
 
@@ -194,6 +204,16 @@ if ($('#BGimage').length > 0) {
 	$("#BGimage").animate({"z-index":-100},{queue: false, duration: 1000});
 	$("#click").animate({"opacity": 0,"z-index":-101},300);
 });
+	} else if ($('.bookingPage').length > 0) {
+	$("#header").show();
+	$("#logo").delay(200).fadeIn(300);
+	$(".headerOptionAbout").fadeIn(500);
+	$(".headerOptionTeam").delay(600).fadeIn(500);
+	$(".headerOptionWorkshops").delay(400).fadeIn(500);
+	$(".headerOptionProjects").delay(200).fadeIn(500);
+	$(".headerOptionContact").delay(800).fadeIn(500);
+	$("#blackStrip").fadeIn(1000);
+	$("#book").hide();
 	} else {
 	$("#header").show();
 	$("#logo").delay(200).fadeIn(300);
@@ -203,8 +223,9 @@ if ($('#BGimage').length > 0) {
 	$(".headerOptionProjects").delay(200).fadeIn(500);
 	$(".headerOptionContact").delay(800).fadeIn(500);
 	$("#blackStrip").fadeIn(1000);
+	$("#book").fadeIn(1000);
 	}
-} else {
+	} else {
   if ($('#BGimage').length > 0) {
 	$("#startLogo").delay(200).fadeIn(1500);
 	$("#click").delay(400).fadeToggle(500);
@@ -216,9 +237,20 @@ if ($('#BGimage').length > 0) {
 	$("#BGimage").animate({"z-index":-100},{queue: false, duration: 1000});
 	$("#click").animate({"opacity": 0,"z-index":-101},300);
 });
+	} else if ($('.bookingPage').length > 0) {
+	$("#header").show();
+	$("#blackStrip").show();
+	$("#book").hide();
+	$("#logo").delay(300).show();
+	$(".headerOptionAbout").hide();
+	$(".headerOptionTeam").hide();
+	$(".headerOptionWorkshops").hide();
+	$(".headerOptionProjects").hide();
+	$(".headerOptionContact").hide();
 	} else {
 	$("#header").show();
 	$("#blackStrip").show();
+	$("#book").show();
 	$("#logo").delay(300).show();
 	$(".headerOptionAbout").hide();
 	$(".headerOptionTeam").hide();
@@ -251,15 +283,17 @@ if ($('#BGimage').length > 0) {
 $(window).scroll( function(){
 		$("#header").css("opacity", "1"-0.8*($(window).scrollTop()/(300+$(window).scrollTop())));
 		$("#blackStrip").css("opacity", "1"-0.99*($(window).scrollTop()/(100+$(window).scrollTop())));
-		
+		$("#book").css("opacity", "1"-0.99*($(window).scrollTop()/(100+$(window).scrollTop())));
 });
 
 $("#header").hover(function(){
 		$(this).animate({opacity:"1"},200);
 		$("#blackStrip").animate({opacity:"1"},200);
+		$("#book").animate({opacity:"1"},200);
 	}, function(){
 		$(this).animate({opacity:"1"-0.8*($(window).scrollTop()/(300+$(window).scrollTop()))},100);
 		$("#blackStrip").animate({opacity:"1"-0.8*($(window).scrollTop()/(300+$(window).scrollTop()))},100);
+		$("#book").animate({opacity:"1"-0.8*($(window).scrollTop()/(300+$(window).scrollTop()))},100);
 	});
 
 $('#click').bind('fade-cycle', function() {
