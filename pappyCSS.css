@@ -687,7 +687,7 @@
 #textdiv8 {
 	width:45%;
 	left: 51%;
-	top:5em;
+	top:10em;
 	opacity:0;
 	-webkit-transition: opacity 1s ease-out;
     -moz-transition: opacity 1s ease-out;
