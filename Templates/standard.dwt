@@ -30,8 +30,8 @@
 <link href="../queries.css" media="screen and (max-width: 1299px)" rel="stylesheet" type="text/css">
 <link href="../queriesLarge.css" media="screen and (min-width: 1300px)" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="../SlickNav-master/dist/slicknav.css" /> 
-<link rel="stylesheet" href="cubeportfolio/css/cubeportfolio.min.css">
-<link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Nixie+One|Oleo+Script|Dosis|Raleway|Roboto|Quicksand|Poiret+One|Coming+Soon|Glegoo" rel="stylesheet">
+<link rel="stylesheet" href="cubeportfolio/css/cubeportfolio.min.css"> 
+<link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Nixie+One|Oleo+Script|Dosis|Raleway|Roboto|Quicksand:300,400,500,700,800,900|Poiret+One|Coming+Soon|Glegoo" rel="stylesheet">
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css"> 
 	#mc_embed_signup{

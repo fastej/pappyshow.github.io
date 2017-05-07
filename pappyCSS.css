@@ -175,13 +175,14 @@
 }
 
 #textdiv10 {
+	display:none;
 	z-index:0;
-	position:absolute;
-	left:5%;
+	position:relative;
+	left:50%;
+	margin-left:-35%;
 	top:10em;
 	padding:0;
-	margin:0;
-	width:40%;
+	width:70%;
 	opacity:0;
 	-webkit-transition: opacity 1s ease-out;
     -moz-transition: opacity 1s ease-out;
@@ -193,11 +194,11 @@
 
 #textdiv11 {
 	z-index:0;
-	position:absolute;
-	left:55%;
-	top:18em;
+	position:relative;
+	left:50%;
+	margin-left:-20%;
+	top:10em;
 	padding:0;
-	margin:0;
 	width:40%;
 	opacity:0;
 	-webkit-transition: opacity 1s ease-out;
@@ -206,6 +207,24 @@
     -o-transition: opacity 1s ease-out;
     transition: opacity 1s ease-out;
 	transition-delay:1.25s;
+}
+
+#textdiv12 {
+	text-align:center;
+	z-index:0;
+	position:relative;
+	left:50%;
+	margin-left:-35%;
+	top:10em;
+	padding:0;
+	width:70%;
+	opacity:0;
+	-webkit-transition: opacity 1s ease-out;
+    -moz-transition: opacity 1s ease-out;
+    -ms-transition: opacity 1s ease-out;  
+    -o-transition: opacity 1s ease-out;
+    transition: opacity 1s ease-out;
+	transition-delay:0.75s;
 }
 
 #textdiv9 .innerTextDiv {
@@ -995,6 +1014,10 @@
     opacity: 1;
 }
 
+#textdiv12.load1 {
+    opacity: 1;
+}
+
 #textdiv11.load2 {
     opacity: 1;
 }
@@ -1243,4 +1266,29 @@ label {
 
 #bookTest a:visited {
 	color:rgba(202,24,24,1.00);
+}
+
+strong, b {
+	font-weight:700;
+}
+
+.cbp-l-inline-desc b {
+	font-weight:900;
+}
+
+.fullWidth {
+	width:100%;
+}
+
+#textdiv12 .innerTextDiv p {
+	font-size:1.5em;
+}
+
+label {
+	font-size:1.5em;
+}
+
+#clickHere:hover {
+	text-decoration:underline;
+	cursor:pointer;
 }

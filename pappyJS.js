@@ -155,6 +155,7 @@ $(document).ready(function(){
 		$(".paraWhite1").addClass("load");
 		$(".paraWhite1").delay(1000).animate({"z-index":-100});
 		$("#textdiv10").addClass("load1");
+		$("#textdiv12").addClass("load1");
 		$("#textdiv11").addClass("load2");
 	}
 	
@@ -350,6 +351,10 @@ $("#arrow7").on("click", function(){
 	$('html, body').animate({
     scrollTop: $("#aboutPic2").offset().top + 500
 }, 1000);
+});
+
+$( "#clickHere" ).click(function() {
+  $( "#textdiv10" ).slideToggle(400);
 });
 
 });
