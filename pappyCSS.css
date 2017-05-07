@@ -227,6 +227,51 @@
 	transition-delay:0.75s;
 }
 
+#textdiv13 {
+	text-align:center;
+	z-index:0;
+	position:relative;
+	left:50%;
+	margin-left:-35%;
+	top:12em;
+	padding:0;
+	width:70%;
+	opacity:0;
+	-webkit-transition: opacity 1s ease-out;
+    -moz-transition: opacity 1s ease-out;
+    -ms-transition: opacity 1s ease-out;  
+    -o-transition: opacity 1s ease-out;
+    transition: opacity 1s ease-out;
+	transition-delay:1s;
+}
+
+#textdiv13 .innerTextDiv p {
+	font-size:1.7em;
+}
+
+#sa_contactdiv {
+	font-family:Quicksand;
+	font-size:1.5em;
+	left:50%;
+	position:relative;
+	margin-bottom:1em;
+	width:11.9em;
+	text-align:center;
+	margin-left:-5.95em;
+}
+
+#sa_contactdiv input {
+	width:100%;
+	height:2em;
+	font-size:0.7em;
+	text-align:center;
+}
+
+#sa_contactdiv textarea {
+	width:100%;
+	font-size:0.6em;
+}
+
 #textdiv9 .innerTextDiv {
 	text-align:center;
 }
@@ -451,7 +496,7 @@
 	height:inherit;
 	position:relative;
 	top:0em;
-	background-image:url(indexImage.png);
+	background-image:url(indexImage.jpg);
 	background-repeat: no-repeat;
 	background-position:center;
 	background-size:cover;
@@ -1015,6 +1060,10 @@
 }
 
 #textdiv12.load1 {
+    opacity: 1;
+}
+
+#textdiv13.load1 {
     opacity: 1;
 }
 
