@@ -223,33 +223,37 @@
       var overScroll   = this.overScrollFix ? Parallax.overScroll : 0;
       var scrollBottom = scrollTop + Parallax.winHeight;
 
-      if (this.boxOffsetBottom > scrollTop && this.boxOffsetTop <= scrollBottom) {
+      if (this.boxOffsetBottom > scrollTop && this.boxOffsetTop < scrollBottom) {
         this.visibility = 'visible';
-        this.mirrorTop = this.boxOffsetTop  - scrollTop;
-        this.mirrorLeft = this.boxOffsetLeft - scrollLeft;
-        this.offsetTop = this.offsetBaseTop - this.mirrorTop * (1 - this.speed);
       } else {
         this.visibility = 'hidden';
       }
-
+      this.mirrorTop = this.boxOffsetTop  - scrollTop;
+      this.mirrorLeft = this.boxOffsetLeft - scrollLeft;
+      this.offsetTop = this.offsetBaseTop - this.mirrorTop * (1 - this.speed);
       this.$mirror.css({
         transform: 'translate3d(0px, 0px, 0px)',
         visibility: this.visibility,
-        top: this.mirrorTop - overScroll,
+        top: Math.round(this.mirrorTop - overScroll),
         left: this.mirrorLeft,
         height: this.boxHeight,
         width: this.boxWidth
       });
 
+var transl = 'translate3d( 0px,' + Math.round(this.offsetTop) +'px, 0px)';
+
       this.$slider.css({
-        transform: 'translate3d(0px, 0px, 0px)',
-        position: 'absolute',
-        top: this.offsetTop,
+		position: 'absolute',
+		top:0,
+		transform: transl,
         left: this.offsetLeft,
         height: this.imageHeight,
         width: this.imageWidth,
         maxWidth: 'none'
       });
+	  
+	  
+	  
     }
   });
 
