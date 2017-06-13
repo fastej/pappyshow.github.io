@@ -272,7 +272,8 @@
 }
 
 #company {
-	background-position:15%;
+	background-position:30%;
+	overflow:hidden;
 }
 
 }
@@ -314,6 +315,10 @@
 	left:7.5%;
 	top:10em;
 	width:85%;
+}
+
+#textdiv14 {
+	top:10em;
 }
 
 #textdiv1 .innerTextDiv p {

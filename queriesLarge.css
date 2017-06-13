@@ -1,7 +1,22 @@
 @charset "UTF-8";
 /* CSS Document */
 
-@media screen and (min-width: 1300px) {
+body {
+	width:80%;
+	margin:auto;
+}
+
+.innerTextDiv p {
+	font-size:calc(1vw + 1vh + 1.2vmin);
+}
+
+#youtubeDiv {
+	height:36vw;
+	width:100%;
+	margin-top:-18vw;
+}
+
+/*@media screen and (min-width: 1300px) {
 	
 #header {
 	left:0;
