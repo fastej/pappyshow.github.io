@@ -11,10 +11,84 @@ body {
 }
 
 #youtubeDiv {
-	height:36vw;
+	height:27vw;
 	width:100%;
-	margin-top:-18vw;
+	margin-top:-14vw;
 }
+
+#film {
+	width:60%;
+}
+
+#para1 {
+	height:44em;
+}
+
+.blueLine1 {
+	top:44em;
+}
+
+#para2 {
+	height:44em;
+}
+
+.blueLine2 {
+	top:44em;
+}
+
+#textdiv2 {
+	top:3em;
+}
+
+.paraWhite2 {
+	top:44em;
+}
+
+#aboutBGinner p {
+	margin:0.5em 1em;
+	font-family: 'Quicksand', cursive;
+	font-size:calc(0.91vw + 0.92vh + 0.2vmin);
+}
+
+#aboutPic {
+	height:50em;
+}
+
+.blueline3 {
+	top: 51.2em;
+}
+
+#para4 {
+	height:50em;
+}
+
+#para4 .blueLine1 {
+	top:50em;
+}
+
+#para5 {
+	height:50em;
+}
+
+#para5 .blueLine2 {
+	top:50em;
+}
+
+#para6 {
+	height:50em;
+}
+
+#para6 .blueLine5 {
+	top:50em;
+}
+
+.workshopsPage .paraWhite2 {
+	top:50em;
+}
+
+#contactBGimage {
+	margin-bottom:0em;
+} 
 
 /*@media screen and (min-width: 1300px) {
 	
