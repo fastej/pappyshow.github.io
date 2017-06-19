@@ -1374,8 +1374,9 @@ label {
 }
 
 #company {
-	background-image:url(IMG_4055.jpg);
-	background-size:cover;
+	clear:both;
+	display:block;
+	background-color:transparent;
 	width:100%;
 	height:45em;
 	margin-bottom:-5em;
