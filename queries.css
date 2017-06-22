@@ -22,40 +22,6 @@
 	width:20em;
 	margin-left:-10em;
 }
-/*
-#click{
-	width:20%;
-	margin-left:-10%;
-}*/
-
-
-/*#para3 {
-	background-image:url(kane_017.JPG);
-	background-position: 40%;
-	background-repeat:no-repeat;
-	background-size:cover;
-}
-
-#para4 {
-	background-image:url(kane_034.JPG);
-	background-position: 20%;
-	background-repeat:no-repeat;
-	background-size:cover;
-}
-
-#para5 {
-	background-image:url(kane_173.JPG);
-	background-position: 35%;
-	background-repeat:no-repeat;
-	background-size:cover;
-}
-
-#para7 {
-	background-image:url(kane_142.JPG);
-	background-position: 40%;
-	background-repeat:no-repeat;
-	background-size:cover;
-}*/
 
 #aboutPic {
 	background-image:url(kane_140.JPG);
@@ -274,8 +240,6 @@
 
 }
 
-/* resize desktop */
-
 @media screen and (max-width: 767px) {
 	#menu {
 		display:none;
@@ -483,7 +447,7 @@
 }
 
 /* iPhone 6 ----------- */
-@media only screen and (min-width: 375px) and (max-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
 	
 #textdiv12 {
 	top:8em;
