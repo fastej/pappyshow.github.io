@@ -174,6 +174,7 @@ $(document).ready(function(){
 	
 	if ($(".teamPage").length>0) {
 		$("#footer").delay(3000).fadeIn(1000);
+		$("#company").delay(3000).fadeIn(500);
 	}
 	
 	if ($(".bookingPage").length>0) {

@@ -236,6 +236,7 @@
 #company {
 	background-position:30%;
 	overflow:hidden;
+	margin-bottom:-3em;
 }
 
 }
@@ -448,6 +449,10 @@
 
 /* iPhone 6 ----------- */
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+	
+#grid-container {
+	margin-bottom:2em;
+}
 	
 #textdiv12 {
 	top:8em;
@@ -733,10 +738,6 @@
 	margin-bottom:8em;
 }
 
-#grid-container {
-	margin-bottom:8em;
-}
-
 #twitter {
 	height:40%;
 	left:29%;
@@ -813,10 +814,17 @@
 #para6 .blueLine5 {
 	top:25em;
 }
-	
+
+#textdiv14 .innerTextDiv p {
+	font-size:1.7em;
+}
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+	
+#textdiv14 .innerTextDiv p {
+	font-size:1.3em;
+}
 
 #textdiv13 {
 	top:10em;
@@ -1077,7 +1085,7 @@
 }
 
 #grid-container {
-	margin-bottom:8em;
+	margin-bottom:2em;
 }
 
 #twitter {
