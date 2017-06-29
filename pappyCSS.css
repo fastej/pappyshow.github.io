@@ -161,7 +161,7 @@
 	z-index:0;
 	position:absolute;
 	left:17.5%;
-	top:4em;
+	top:6em;
 	padding:0;
 	margin:0;
 	width:65%;
@@ -172,6 +172,8 @@
     -o-transition: opacity 1s ease-out;
     transition: opacity 1s ease-out;
 	transition-delay:0.75s;
+	overflow:scroll;
+	background-color:rgba(6,232,230,0.7);
 }
 
 #textdiv10 {
@@ -288,6 +290,7 @@
 
 #textdiv9 .innerTextDiv {
 	text-align:center;
+	background-color:transparent;
 }
 
 #textdiv9 .innerTextDiv p {
