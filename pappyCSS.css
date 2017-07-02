@@ -1386,3 +1386,21 @@ label {
 	background-position:center;
 	margin-bottom:-5em;
 }
+
+#xcross {
+	position:absolute;
+	width:2em;
+	height:2em;
+	z-index:100;
+	top:0em;
+	left:96.5%;
+	display:none;
+}
+
+#xcross:hover {
+	cursor:pointer;
+}
+
+#ximg {
+	width:inherit;
+}

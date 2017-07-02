@@ -2,6 +2,11 @@
 
 @media screen and (max-width: 1000px) {
 	
+#xcross {
+	left:96.5%;
+	width:1.5em;
+}
+	
 #para1 .downArrow {
 	top:90%;
 }
@@ -242,6 +247,11 @@
 }
 
 @media screen and (max-width: 767px) {
+	
+	#xcross {
+		left:96%;
+	}
+	
 	#menu {
 		display:none;
 	}
@@ -417,6 +427,10 @@
 }
 
 @media screen and (max-width: 550px) {
+	
+	#xcross {
+		left:93%;
+	}
 
 #textdiv9 .innerTextDiv p {
 	font-size:0.8em;

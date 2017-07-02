@@ -356,6 +356,13 @@ $("#arrow7").on("click", function(){
 });
 
 $( "#clickHere" ).click(function() {
+  $("#xcross").toggle();
+  $( "#textdiv10" ).slideToggle(400);
+  $('#textdiv13').fadeToggle(400);
+});
+
+$( "#xcross" ).click(function() {
+  $("#xcross").toggle();
   $( "#textdiv10" ).slideToggle(400);
   $('#textdiv13').fadeToggle(400);
 });
