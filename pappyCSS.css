@@ -1404,3 +1404,7 @@ label {
 #ximg {
 	width:inherit;
 }
+
+.cbp-l-inline-title {
+	font-size:2.5em !important;
+}
