@@ -28,6 +28,26 @@
 	z-index:1000;
 }
 
+#newVid {
+	text-align:center;
+	height:22.5vw;
+	z-index:0;
+	position:absolute;
+	left:2%;
+	top:11em;
+	padding:0;
+	margin:0em;
+	width:39%;
+	opacity:0;
+	background-color:transparent;
+	-webkit-transition: opacity 1s ease-out;
+    -moz-transition: opacity 1s ease-out;
+    -ms-transition: opacity 1s ease-out;  
+    -o-transition: opacity 1s ease-out;
+    transition: opacity 1s ease-out;
+	transition-delay:0.75s;
+}
+
 #textdiv1 {
 	z-index:0;
 	position:absolute;
@@ -116,7 +136,7 @@
 #textdiv6 {
 	z-index:1;
 	position:absolute;
-	top:8em;
+	top:3em;
 	padding:0;
 	margin:0;
 	width:45%;
@@ -134,7 +154,7 @@
 	z-index:0;
 	position:absolute;
 	left:17.5%;
-	top:10em;
+	top:6em;
 	padding:0;
 	margin:0;
 	width:65%;
@@ -267,13 +287,17 @@
 
 #sa_contactdiv {
 	font-family:Quicksand;
-	font-size:1.5em;
 	left:50%;
 	position:relative;
-	margin-bottom:1em;
-	width:11.9em;
+	margin-bottom:3em;
+	margin-top:3em;
+	width:28.2em;
 	text-align:center;
-	margin-left:-5.95em;
+	margin-left:-14.1em;
+}
+
+#sa_contactdiv label {
+	font-size:2em;
 }
 
 #sa_contactdiv input {
@@ -710,6 +734,12 @@
 	z-index:4;
 }
 
+#film1 {
+	width:100%;
+	height:inherit;
+	z-index:4;
+}
+
 #white1 {
 	height:inherit;
 	position:absolute;
@@ -819,12 +849,17 @@
 }
 
 #textdiv5 .innerTextDiv p {
-	font-size:calc(1.4vw + 1.4vh + 1vmin);
+	font-size:calc(1.2vw + 1.2vh + 1vmin);
+	font-family:"Quicksand";
+}
+
+#textdiv6 .innerTextDiv p {
+	font-size:calc(1vw + 1vh + 0.8vmin);
 	font-family:"Quicksand";
 }
 
 #textdiv7 .innerTextDiv p {
-	font-size:calc(1.4vw + 1.4vh + 1vmin);
+	font-size:calc(1.2vw + 1.2vh + 1vmin);
 	font-family:"Quicksand";
 }
 
@@ -1068,6 +1103,10 @@
 }
 
 #textdiv1.load1 {
+    opacity: 1;
+}
+
+#newVid.load1 {
     opacity: 1;
 }
 

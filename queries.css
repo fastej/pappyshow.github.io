@@ -1,6 +1,9 @@
 @charset "UTF-8";
 
 @media screen and (max-width: 1000px) {
+#newVid {
+	top:17em;
+}
 	
 #xcross {
 	left:96.5%;
@@ -247,6 +250,10 @@
 }
 
 @media screen and (max-width: 767px) {
+	#newVid {
+		left:30%;
+		top:8em;
+	}
 	
 	#xcross {
 		left:96%;
@@ -437,6 +444,11 @@
 }
 
 @media screen and (max-width: 550px) {
+	#newVid {
+		width:55%;
+		left:22.5%;
+		height:32vw;
+	}
 	
 	.cbp-l-caption-title {
 	font-size:40em;
@@ -698,19 +710,19 @@
 
 #textdiv5 {
 	left:7.5%;
-	top:11em;
+	top:9em;
 	width:85%;
 }
 
 #textdiv6 {
 	left:7.5%;
-	top:8em;
+	top:5em;
 	width:85%;
 }
 
 #textdiv7 {
 	left:7.5%;
-	top:8em;
+	top:5em;
 	width:85%;
 }
 
@@ -719,15 +731,15 @@
 }
 
 #textdiv6 .innerTextDiv p {
-	font-size:2em;
+	font-size:1.2em;
 }
 
 #textdiv7 .innerTextDiv p {
-	font-size:1.5em;
+	font-size:1.2em;
 }
 
 #textdiv5 .innerTextDiv p {
-	font-size:1.33em;
+	font-size:1.2em;
 }
 
 #textdiv2 .innerTextDiv p {
@@ -1050,13 +1062,13 @@
 
 #textdiv6 {
 	left:7.5%;
-	top:8em;
+	top:5em;
 	width:85%;
 }
 
 #textdiv7 {
 	left:7.5%;
-	top:8em;
+	top:7em;
 	width:85%;
 }
 
@@ -1065,15 +1077,15 @@
 }
 
 #textdiv6 .innerTextDiv p {
-	font-size:2em;
+	font-size:1.2em;
 }
 
 #textdiv7 .innerTextDiv p {
-	font-size:1.5em;
+	font-size:1.2em;
 }
 
 #textdiv5 .innerTextDiv p {
-	font-size:1.33em;
+	font-size:1.2em;
 }
 
 #textdiv2 .innerTextDiv p {
