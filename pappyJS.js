@@ -129,6 +129,7 @@ $(document).ready(function(){
 		$(".paraWhite1").delay(3000).animate({"z-index":-100});
 		$(".paraWhite2").delay(3000).animate({"z-index":-100});
 		$("#textdiv1").addClass("load1");
+		$("#newVid").addClass("load1");
 		$(".downArrow").addClass("load1");
 		$("#textdiv2").addClass("load2");
 	}
