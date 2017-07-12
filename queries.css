@@ -2,7 +2,9 @@
 
 @media screen and (max-width: 1000px) {
 #newVid {
-	top:17em;
+	top:21em;
+	height:21vw;
+	width:36%;
 }
 	
 #xcross {
@@ -251,8 +253,10 @@
 
 @media screen and (max-width: 767px) {
 	#newVid {
-		left:30%;
-		top:8em;
+		left:29%;
+		top:19em;
+		width:42%;
+		height:24vw;
 	}
 	
 	#xcross {
@@ -285,7 +289,7 @@
 
 #textdiv1 {
 	left:7.5%;
-	top:19em;
+	top:8em;
 	width:85%;
 }
 
@@ -423,9 +427,13 @@
 #textdiv13 .innerTextDiv p {
 	font-size:1.3em;
 }
-	
-#sa_contactdiv {
-	font-size:1.3em;
+
+#sa_contactdiv input {
+	width:60%;
+}
+
+#sa_contactdiv textarea {
+	width:60%;
 }
 
 #textdiv12 {
@@ -448,6 +456,7 @@
 		width:55%;
 		left:22.5%;
 		height:32vw;
+		top:20em;
 	}
 	
 	.cbp-l-caption-title {
@@ -476,14 +485,11 @@
 }
 
 #sa_contactdiv input {
-	width:80%;
-	height:2em;
-	font-size:0.7em;
-	text-align:center;
+	width:50%;
 }
 
 #sa_contactdiv textarea {
-	width:90%;
+	width:50%;
 }
 }
 
@@ -508,17 +514,6 @@
 	
 #textdiv13 .innerTextDiv p {
 	font-size:1.3em;
-}
-	
-#sa_contactdiv {
-	font-size:1.3em;
-}
-	
-#sa_contactdiv input {
-	width:80%;
-	height:2em;
-	font-size:0.7em;
-	text-align:center;
 }
 
 #para1 .downArrow {
@@ -698,8 +693,12 @@
 
 #textdiv1 {
 	left:7.5%;
-	top:15em;
+	top:7em;
 	width:85%;
+}
+
+#newVid {
+	top:16.5em;
 }
 
 #textdiv2 {
@@ -877,22 +876,10 @@
 #textdiv13 .innerTextDiv p {
 	font-size:1.3em;
 }
-	
-#sa_contactdiv {
-	font-size:1em;
-}
-	
-#sa_contactdiv input {
-	width:80%;
-	height:2em;
-	font-size:0.5em;
-	text-align:center;
-}
 
-#sa_contactdiv textarea {
-	width:100%;
-	font-size:1em;
-	height:10em;
+#sa_contactdiv {
+	font-size:0.8em;
+	left:33%;
 }
 
 #para1 .downArrow {
@@ -1044,8 +1031,12 @@
 
 #textdiv1 {
 	left:7.5%;
-	top:15em;
+	top:8em;
 	width:85%;
+}
+
+#newVid {
+	top:23em;
 }
 
 #textdiv2 {
@@ -1210,23 +1201,6 @@
 	
 #textdiv13 .innerTextDiv p {
 	font-size:1.3em;
-}
-	
-#sa_contactdiv {
-	font-size:1em;
-}
-	
-#sa_contactdiv input {
-	width:80%;
-	height:2em;
-	font-size:0.5em;
-	text-align:center;
-}
-
-#sa_contactdiv textarea {
-	width:100%;
-	font-size:1em;
-	height:10em;
 }
 
 #para1 .downArrow {
@@ -1549,23 +1523,6 @@
 	
 #textdiv13 .innerTextDiv p {
 	font-size:1.3em;
-}
-	
-#sa_contactdiv {
-	font-size:1em;
-}
-	
-#sa_contactdiv input {
-	width:80%;
-	height:2em;
-	font-size:0.5em;
-	text-align:center;
-}
-
-#sa_contactdiv textarea {
-	width:100%;
-	font-size:1em;
-	height:10em;
 }
 
 #para1 .downArrow {

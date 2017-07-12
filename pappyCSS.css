@@ -30,14 +30,14 @@
 
 #newVid {
 	text-align:center;
-	height:22.5vw;
+	height:17vw;
 	z-index:0;
 	position:absolute;
-	left:2%;
-	top:11em;
+	left:8%;
+	top:18em;
 	padding:0;
 	margin:0em;
-	width:39%;
+	width:30%;
 	opacity:0;
 	background-color:transparent;
 	-webkit-transition: opacity 1s ease-out;

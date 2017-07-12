@@ -4,26 +4,21 @@
   $token  = $_POST['stripeToken'];
 
   $customer = \Stripe\Customer::create(array(
-      'email' => 'customer@example.com',
+      'email' => $_POST['stripeEmail'],
       'source'  => $token
   ));
 
   $charge = \Stripe\Charge::create(array(
       'customer' => $customer->id,
-      'amount'   => 5000,
-      'currency' => 'usd'
+      'amount'   => 1200,
+      'currency' => 'gbp'
   ));
 
-  echo '<h1>Successfully charged $50.00!</h1>';
+  echo '<h1>Payment successful.</h1>';
 ?>
 
-<!doctype html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Untitled Document</title>
-</head>
-
-<body>
-</body>
-</html>
+<script type="text/javascript">
+	setTimeout(function () {
+   window.location.href = "booking.html";
+}, 2000);
+</script>
