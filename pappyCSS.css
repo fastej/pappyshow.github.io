@@ -33,8 +33,8 @@
 	height:17vw;
 	z-index:0;
 	position:absolute;
-	left:8%;
-	top:18em;
+	left:65%;
+	top:15em;
 	padding:0;
 	margin:0em;
 	width:30%;
@@ -51,11 +51,11 @@
 #textdiv1 {
 	z-index:0;
 	position:absolute;
-	left:53%;
-	top:10em;
+	left:3%;
+	top:21em;
 	padding:0;
 	margin:0em;
-	width:45%;
+	width:40%;
 	opacity:0;
 	-webkit-transition: opacity 1s ease-out;
     -moz-transition: opacity 1s ease-out;
@@ -850,6 +850,11 @@
 
 #textdiv5 .innerTextDiv p {
 	font-size:calc(1.2vw + 1.2vh + 1vmin);
+	font-family:"Quicksand";
+}
+
+#textdiv1 .innerTextDiv p {
+	font-size:calc(0.8vw + 0.8vh + 1vmin);
 	font-family:"Quicksand";
 }
 
