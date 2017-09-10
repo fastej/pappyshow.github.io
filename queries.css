@@ -1,6 +1,12 @@
 @charset "UTF-8";
 
 @media screen and (max-width: 1000px) {
+	
+#textdiv15 .innerTextDiv p {
+	margin-top:0.8em;
+	font-size:1.1em;
+}
+
 #newVid {
 	top:16.5em;
 	height:21vw;
@@ -110,13 +116,13 @@
 
 #textdiv5 {
 	left:7.5%;
-	top:15em;
+	top:13em;
 	width:85%;
 }
 
 #textdiv6 {
 	left:7.5%;
-	top:14em;
+	top:10em;
 	width:85%;
 }
 
@@ -131,15 +137,15 @@
 }
 
 #textdiv6 .innerTextDiv p {
-	font-size:2.5em;
+	font-size:1.3em;
 }
 
 #textdiv7 .innerTextDiv p {
-	font-size:1.7em;
+	font-size:1.4em;
 }
 
 #textdiv5 .innerTextDiv p {
-	font-size:1.6em;
+	font-size:1.2em;
 }
 
 #textdiv2 .innerTextDiv p {
@@ -250,9 +256,14 @@
 	margin-bottom:-3em;
 }
 
+#textdiv7 {
+	top:6em;
+}
+
 }
 
 @media screen and (max-width: 767px) {
+	
 	#newVid {
 		left:29%;
 		top:19em;
@@ -310,6 +321,18 @@
 
 #textdiv2 .innerTextDiv p {
 	font-size:1.5em;
+}
+
+#textdiv6 .innerTextDiv p {
+	font-size:1.2em;
+}
+
+#textdiv7 .innerTextDiv p {
+	font-size:1.3em;
+}
+
+#textdiv5 .innerTextDiv p {
+	font-size:1.1em;
 }
 
 #footer {
@@ -413,7 +436,7 @@
 }
 
 #textdiv9 {
-	height:41em;
+	height:32em;
 }
 
 #textdiv10 {
@@ -453,6 +476,12 @@
 }
 
 @media screen and (max-width: 550px) {
+
+#textdiv15 .innerTextDiv p {
+	margin-top:0em;
+	font-size:1em;
+}
+	
 	#newVid {
 		width:55%;
 		left:22.5%;
@@ -474,7 +503,7 @@
 }
 
 #textdiv9 {
-	height:41em;
+	height:32em;
 }
 
 #textdiv1 .innerTextDiv p {
@@ -492,10 +521,35 @@
 #sa_contactdiv textarea {
 	width:50%;
 }
+
+#textdiv6 .innerTextDiv p {
+	font-size:1.1em;
+}
+
+#textdiv7 .innerTextDiv p {
+	font-size:1.1em;
+}
+
+#textdiv5 .innerTextDiv p {
+	font-size:1em;
+}
+
+#textdiv5 {
+	top:10em;
+}
+
+#textdiv6 {
+	top:7em;
+}
 }
 
 /* iPhone 6 ----------- */
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+	
+#textdiv15 .innerTextDiv p {
+	margin-top:0em;
+	font-size:1.1em;
+}
 	
 #grid-container {
 	margin-bottom:2em;
@@ -558,7 +612,7 @@
 }
 
 #textdiv9 {
-	height:42.5em;
+	height:32em;
 }
 
 #aboutPic .downArrow {
@@ -915,7 +969,7 @@
 }
 
 #textdiv9 {
-	height:42.5em;
+	height:32em;
 }
 
 #aboutPic .downArrow {
@@ -1236,7 +1290,7 @@
 }
 
 #textdiv9 {
-	height:42.5em;
+	height:32em;
 }
 
 #aboutPic .downArrow {
@@ -1511,6 +1565,11 @@
 
 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
 	
+#textdiv15 .innerTextDiv p {
+	margin-top:0em;
+	font-size:0.9em;
+}
+	
 #sa_contactdiv {
 	font-size:0.7em;
 	left:20%;
@@ -1576,7 +1635,7 @@
 }
 
 #textdiv9 {
-	height:42.5em;
+	height:32em;
 }
 
 #aboutPic .downArrow {
@@ -1951,6 +2010,10 @@
 #paravid .downArrow {
 	top:88%;
 }
+
+#textdiv9 {
+	height:32em;
+}
 }
 
 @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
@@ -2041,5 +2104,9 @@
 #sa_contactdiv {
 	font-size:0.9em;
 	left:42%;
+}
+
+#textdiv9 {
+	height:32em;
 }
 }

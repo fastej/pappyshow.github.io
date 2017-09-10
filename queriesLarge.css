@@ -1,6 +1,13 @@
 @charset "UTF-8";
 /* CSS Document */
 
+#newVid {
+	top:18em;
+	height:16.5vw;
+	width:36%;
+	left:61%;
+}
+
 body {
 	width:80%;
 	margin:auto;

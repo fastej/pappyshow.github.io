@@ -182,6 +182,7 @@ $(document).ready(function(){
 		$(".paraWhite1").addClass("load");
 		$(".paraWhite1").delay(1000).animate({"z-index":-100});
 		$("#textdiv9").addClass("load2");
+		$("#textdiv15").addClass("load2");
 		$("#footer").delay(3000).fadeIn(1000);
 		$("#book").hide();
 	}
