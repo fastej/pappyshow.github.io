@@ -436,7 +436,8 @@
 }
 
 #textdiv9 {
-	height:32em;
+	top:19em;
+	height:28em;
 }
 
 #textdiv10 {
@@ -472,14 +473,18 @@
 	font-size:1em !important;
 }
 
+#textdiv15 .innerTextDiv p {
+	margin-top:0em;
+	font-size:1.05em;
+}
 
 }
 
 @media screen and (max-width: 550px) {
 
 #textdiv15 .innerTextDiv p {
-	margin-top:0em;
-	font-size:1em;
+	margin-top:0.5em;
+	font-size:0.9em;
 }
 	
 	#newVid {
@@ -548,7 +553,7 @@
 	
 #textdiv15 .innerTextDiv p {
 	margin-top:0em;
-	font-size:1.1em;
+	font-size:1em;
 }
 	
 #grid-container {
@@ -785,15 +790,15 @@
 }
 
 #textdiv6 .innerTextDiv p {
-	font-size:1.2em;
+	font-size:1em;
 }
 
 #textdiv7 .innerTextDiv p {
-	font-size:1.2em;
+	font-size:1em;
 }
 
 #textdiv5 .innerTextDiv p {
-	font-size:1.2em;
+	font-size:1em;
 }
 
 #textdiv2 .innerTextDiv p {
@@ -1123,15 +1128,15 @@
 }
 
 #textdiv6 .innerTextDiv p {
-	font-size:1.2em;
+	font-size:1em;
 }
 
 #textdiv7 .innerTextDiv p {
-	font-size:1.2em;
+	font-size:1em;
 }
 
 #textdiv5 .innerTextDiv p {
-	font-size:1.2em;
+	font-size:1em;
 }
 
 #textdiv2 .innerTextDiv p {
@@ -1440,15 +1445,15 @@
 }
 
 #textdiv6 .innerTextDiv p {
-	font-size:1.2em;
+	font-size:1em;
 }
 
 #textdiv7 .innerTextDiv p {
-	font-size:1.3em;
+	font-size:1.1em;
 }
 
 #textdiv5 .innerTextDiv p {
-	font-size:1.33em;
+	font-size:1.1em;
 }
 
 #textdiv2 .innerTextDiv p {
@@ -1785,15 +1790,15 @@
 }
 
 #textdiv6 .innerTextDiv p {
-	font-size:1.05em;
+	font-size:0.9em;
 }
 
 #textdiv7 .innerTextDiv p {
-	font-size:1.1em;
+	font-size:0.9em;
 }
 
 #textdiv5 .innerTextDiv p {
-	font-size:1em;
+	font-size:0.8em;
 }
 
 #textdiv2 .innerTextDiv p {
@@ -1982,15 +1987,15 @@
 }
 
 #textdiv5 .innerTextDiv p {
-	font-size:1.2em;
+	font-size:1em;
 }
 
 #textdiv6 .innerTextDiv p {
-	font-size:1.3em;
+	font-size:1.1em;
 }
 
 #textdiv7 .innerTextDiv p {
-	font-size:1.3em;
+	font-size:1.1em;
 }
 
 #textdiv8 #aboutBGinner p {
@@ -2090,11 +2095,11 @@
 }
 
 #textdiv5 .innerTextDiv p {
-	font-size:1.1em;
+	font-size:1em;
 }
 
 #textdiv6 .innerTextDiv p {
-	font-size:1.2em;
+	font-size:1.1em;
 }
 
 #textdiv7 .innerTextDiv p {
